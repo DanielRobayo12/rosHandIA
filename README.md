@@ -15,11 +15,34 @@ we can see out terminal like this
 
 `(handIA2) daniel-robayo@danirob:~/handIA2$`
 
+      
 - In the **VE** opened we gonna install our libreries
   
         pip install mediapipe
         pip install opencv-python
         pip install numpy
         pip install lark
+- Now go to de rute /ros
+
+      cd ros
+- And activate the ros enviroment 
+
+      source install/setup.bash
+Now we can work whit the artificial vision and ros2 enviroment
+
+
+> ## Move a robot hand whit artificial vision
+
+The physical conecction it's very important to can do work the proyect, after cheking the physical connection conect the .cpp file whit the ESP32 board
+
+- Run the node to see and register the hands landmarks
+
+        ros2 run roshandia_pkg handRead01.py
+- After run the node connection with the board in another terminal
+
+        ros2 run roshandia_pkg connectHand.py
+  And enjoy whith the robot hand controlled by yourself
+
+
 
 
