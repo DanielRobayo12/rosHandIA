@@ -1,0 +1,177 @@
+<?xml version = "1.0"?>
+<robot name = "handIA">
+
+    <material name="grey">
+        <color rgba="0.9 0.9 0.9 1"/>
+    </material>
+
+    <!-- //////////////////  arm   //////////////////-->
+    <link name = "arm">
+        <visual>
+            <material name="grey"/>
+            <geometry>
+                <mesh filename = "package://roshandia_pkg/urdf/mesh/arm.stl"/>
+            </geometry>
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename = "package://roshandia_pkg/urdf/mesh/arm.stl"/>
+            </geometry>
+        </collision>
+    </link>
+    <!-- //////////////////  hand   //////////////////-->
+    <link name ="hand">
+        <visual>
+            <material name="grey"/>
+             <geometry> 
+                <mesh filename = "package://roshandia_pkg/urdf/mesh/hand.stl"/>
+             </geometry>
+        </visual>
+        <collision>
+            <geometry> 
+                <mesh filename = "package://roshandia_pkg/urdf/mesh/hand.stl"/>
+             </geometry>
+        </collision>
+    </link>
+
+    <joint name = "hand_to_arm" type="fixed">
+        <parent link="arm"/>
+        <child link="hand"/>
+        <origin xyz="0 0 4.01612"/>
+    </joint>
+    <!-- //////////////////  blade   //////////////////-->
+    <link name = "blade">
+        <visual>
+            <material name="grey"/>
+             <geometry> 
+                <mesh filename = "package://roshandia_pkg/urdf/mesh/blade.stl"/>
+             </geometry>
+        </visual>
+        <collision>
+            <geometry> 
+                <mesh filename = "package://roshandia_pkg/urdf/mesh/blade.stl"/>
+             </geometry>
+        </collision>
+    </link>
+
+    <joint name="blade_to_arm" type="prismatic">
+        <parent link="arm"/>
+        <child link="blade"/>
+        <origin xyz="-0.836728 0.010775 1.07994"/>
+        <axis xyz="0 0 1"/>
+        <limit effort="100" velocity="0.2" upper="2.7037" lower="0"/>
+    </joint>
+    <!-- //////////////////  finger 1   //////////////////-->
+    <link name = "finger1">
+        <visual>
+            <material name="grey"/>
+            <geometry> 
+                <mesh filename = "package://roshandia_pkg/urdf/mesh/finger1.stl"/>
+            </geometry>
+        </visual>
+        <collision>
+            <geometry> 
+                <mesh filename = "package://roshandia_pkg/urdf/mesh/finger1.stl"/>
+             </geometry>
+        </collision>
+    </link>
+
+    <joint name="f1_to_hand" type="revolute">
+        <parent link="hand"/>
+        <child link="finger1"/>
+        <origin xyz="0.001181 0.472818 3.3364"/>
+        <axis xyz="0.707 0 0.707"/>
+        <axis xyz="0 1 0"/>
+        <limit effort="100" velocity="0.5" lower="-1" upper="1"/>
+    </joint>
+    
+    <!-- //////////////////  finger 2   //////////////////-->
+    <link name = "finger2">
+        <visual>
+            <material name="grey"/>
+             <geometry> 
+                <mesh filename = "package://roshandia_pkg/urdf/mesh/finger2.stl"/>
+             </geometry>
+        </visual>
+        <collision>
+            <geometry> 
+                <mesh filename = "package://roshandia_pkg/urdf/mesh/finger2.stl"/>
+             </geometry>
+        </collision>
+    </link>
+
+    <joint name="f2_to_hand" type="revolute">
+        <parent link="hand"/>
+        <child link="finger2"/>
+        <origin xyz="0.285932 0.615642 4.82351"/>
+        <axis xyz="0 1 0"/>
+        <limit effort="100" velocity="0.5" lower="-1.222" upper="0"/>
+    </joint>
+    <!-- //////////////////  finger 3   //////////////////-->
+    <link name = "finger3">
+        <visual>
+            <material name="grey"/>
+             <geometry> 
+                <mesh filename = "package://roshandia_pkg/urdf/mesh/finger3.stl"/>
+             </geometry>
+        </visual>
+        <collision>
+            <geometry> 
+                <mesh filename = "package://roshandia_pkg/urdf/mesh/finger3.stl"/>
+             </geometry>
+        </collision>
+    </link>
+
+    <joint name="f3_to_hand" type="revolute">
+        <parent link="hand"/>
+        <child link="finger3"/>
+        <origin xyz="0.260113 0.054977 4.73802"/>
+        <axis xyz="0 1 0"/>
+        <limit effort="100" velocity="0.5" lower="-1.222" upper="0"/>
+    </joint>
+    <!-- //////////////////  finger 4   //////////////////-->
+    <link name = "finger4">
+        <visual>
+            <material name="grey"/>
+             <geometry> 
+                <mesh filename = "package://roshandia_pkg/urdf/mesh/finger4.stl"/>
+             </geometry>
+        </visual>
+        <collision>
+            <geometry> 
+                <mesh filename = "package://roshandia_pkg/urdf/mesh/finger4.stl"/>
+             </geometry>
+        </collision>
+    </link>
+
+    <joint name="f4_to_hand" type="revolute">
+        <parent link="hand"/>
+        <child link="finger4"/>
+        <origin xyz="0.2049 -0.488003 4.61141"/>
+        <axis xyz="0 1 0"/>
+        <limit effort="100" velocity="0.5" lower="-1.222" upper="0"/>
+    </joint>
+    <!-- //////////////////  finger 5   //////////////////-->
+    <link name = "finger5">
+        <visual>
+            <material name="grey"/>
+             <geometry> 
+                <mesh filename = "package://roshandia_pkg/urdf/mesh/finger5.stl"/>
+             </geometry>
+        </visual>
+        <collision>
+            <geometry> 
+                <mesh filename = "package://roshandia_pkg/urdf/mesh/finger5.stl"/>
+             </geometry>
+        </collision>
+    </link>
+
+    <joint name="f5_to_hand" type="revolute">
+        <parent link="hand"/>
+        <child link="finger5"/>
+        <origin xyz="0.046572 -0.898537 4.52963"/>
+        <axis xyz="0 1 0"/>
+        <limit effort="100" velocity="0.5" lower="-1.222" upper="0"/>
+    </joint>
+
+</robot>

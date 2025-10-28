@@ -1,0 +1,63 @@
+[0.168s] Invoking command in '/home/daniel-robayo/handIA2/ros/src/build/roshandmsg_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel-robayo/handIA2/ros/install/rosHandIa_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/daniel-robayo/handIA2/ros/src/roshandmsg_pkg -DCMAKE_INSTALL_PREFIX=/home/daniel-robayo/handIA2/ros/src/install/roshandmsg_pkg
+[0.207s] -- The C compiler identification is GNU 13.3.0
+[0.249s] -- The CXX compiler identification is GNU 13.3.0
+[0.260s] -- Detecting C compiler ABI info
+[0.323s] -- Detecting C compiler ABI info - done
+[0.330s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.330s] -- Detecting C compile features
+[0.330s] -- Detecting C compile features - done
+[0.337s] -- Detecting CXX compiler ABI info
+[0.407s] -- Detecting CXX compiler ABI info - done
+[0.417s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.417s] -- Detecting CXX compile features
+[0.417s] -- Detecting CXX compile features - done
+[0.421s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.538s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.627s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.632s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.678s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.721s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.923s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:57 (message):
+[0.923s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[0.923s]   roshandmsg_pkg --arguments-file
+[0.923s]   /home/daniel-robayo/handIA2/ros/src/build/roshandmsg_pkg/rosidl_adapter__arguments__roshandmsg_pkg.json
+[0.923s]   --output-dir
+[0.923s]   /home/daniel-robayo/handIA2/ros/src/build/roshandmsg_pkg/rosidl_adapter/roshandmsg_pkg
+[0.924s]   --output-file
+[0.924s]   /home/daniel-robayo/handIA2/ros/src/build/roshandmsg_pkg/rosidl_adapter/roshandmsg_pkg.idls)
+[0.924s]   returned error code 1:
+[0.924s] 
+[0.924s]   Traceback (most recent call last):
+[0.924s] 
+[0.924s]     File "<frozen runpy>", line 198, in _run_module_as_main
+[0.924s]     File "<frozen runpy>", line 88, in _run_code
+[0.924s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.924s]       sys.exit(main())
+[0.924s]                ^^^^^^
+[0.924s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/main.py", line 53, in main
+[0.924s]       abs_idl_file = convert_to_idl(
+[0.924s]                      ^^^^^^^^^^^^^^^
+[0.925s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[0.925s]       return convert_msg_to_idl(
+[0.925s]              ^^^^^^^^^^^^^^^^^^^
+[0.925s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[0.925s]       msg = parse_message_string(package_name, input_file.stem, content)
+[0.925s]             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0.925s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 545, in parse_message_string
+[0.925s]       msg = MessageSpecification(pkg_name, msg_name, fields, constants)
+[0.925s]             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0.925s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 389, in __init__
+[0.925s]       self.base_type = BaseType(
+[0.925s]                        ^^^^^^^^^
+[0.925s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 206, in __init__
+[0.925s]       raise InvalidResourceName(
+[0.925s] 
+[0.926s]   rosidl_adapter.parser.InvalidResourceName: 'msgHand' is an invalid message
+[0.926s]   name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[0.926s] 
+[0.926s] Call Stack (most recent call first):
+[0.926s]   /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:132 (rosidl_adapt_interfaces)
+[0.926s]   CMakeLists.txt:11 (rosidl_generate_interfaces)
+[0.926s] 
+[0.926s] [0m
+[0.926s] -- Configuring incomplete, errors occurred!

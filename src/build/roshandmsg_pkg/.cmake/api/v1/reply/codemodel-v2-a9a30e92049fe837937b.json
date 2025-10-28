@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-93baf20f58ff19b2ab31.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "roshandmsg_pkg__py",
+					"jsonFile" : "directory-roshandmsg_pkg__py-fe873cdb0b5855ac35c8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/daniel-robayo/handIA2/ros/src/build/roshandmsg_pkg/roshandmsg_pkg__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "roshandmsg_pkg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_roshandmsg_pkg_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_roshandmsg_pkg_egg-a557e983fc306a410000.json",
+					"name" : "ament_cmake_python_build_roshandmsg_pkg_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_roshandmsg_pkg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_roshandmsg_pkg-a4c0ef4003d15b14c3a8.json",
+					"name" : "ament_cmake_python_copy_roshandmsg_pkg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roshandmsg_pkg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roshandmsg_pkg-45c88670868110e15780.json",
+					"name" : "roshandmsg_pkg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roshandmsg_pkg__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roshandmsg_pkg__cpp-172abfe407d890abc57d.json",
+					"name" : "roshandmsg_pkg__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "roshandmsg_pkg__py::@92b96591c29bc71ce3e4",
+					"jsonFile" : "target-roshandmsg_pkg__py-4309d74975b5b48dbc0e.json",
+					"name" : "roshandmsg_pkg__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roshandmsg_pkg__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roshandmsg_pkg__rosidl_generator_c-c3ef63ef9cdf1629f896.json",
+					"name" : "roshandmsg_pkg__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roshandmsg_pkg__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roshandmsg_pkg__rosidl_generator_py-a08525ad5119669bc56f.json",
+					"name" : "roshandmsg_pkg__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roshandmsg_pkg__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roshandmsg_pkg__rosidl_generator_type_description-f5c7a1fd3c4357b73274.json",
+					"name" : "roshandmsg_pkg__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roshandmsg_pkg__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roshandmsg_pkg__rosidl_typesupport_c-6f221025541e065efddc.json",
+					"name" : "roshandmsg_pkg__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roshandmsg_pkg__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roshandmsg_pkg__rosidl_typesupport_cpp-ef30ab3798540748af48.json",
+					"name" : "roshandmsg_pkg__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roshandmsg_pkg__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roshandmsg_pkg__rosidl_typesupport_fastrtps_c-4af64389de2703b4f199.json",
+					"name" : "roshandmsg_pkg__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roshandmsg_pkg__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roshandmsg_pkg__rosidl_typesupport_fastrtps_cpp-044dbcd8b9ec62a69b9e.json",
+					"name" : "roshandmsg_pkg__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roshandmsg_pkg__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roshandmsg_pkg__rosidl_typesupport_introspection_c-dadbd2515c4ad0217c74.json",
+					"name" : "roshandmsg_pkg__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roshandmsg_pkg__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roshandmsg_pkg__rosidl_typesupport_introspection_cpp-0b03fcff53f44d38f010.json",
+					"name" : "roshandmsg_pkg__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roshandmsg_pkg_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roshandmsg_pkg_s__rosidl_typesupport_c-414a9a9304274b9cca47.json",
+					"name" : "roshandmsg_pkg_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roshandmsg_pkg_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roshandmsg_pkg_s__rosidl_typesupport_fastrtps_c-e23a22687d7c37d2e52f.json",
+					"name" : "roshandmsg_pkg_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roshandmsg_pkg_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roshandmsg_pkg_s__rosidl_typesupport_introspection_c-8c0410809e45e2929a98.json",
+					"name" : "roshandmsg_pkg_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roshandmsg_pkg_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roshandmsg_pkg_uninstall-bff1e395fcd189c98b8a.json",
+					"name" : "roshandmsg_pkg_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-1a3da93ee77db08ec478.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/daniel-robayo/handIA2/ros/src/build/roshandmsg_pkg",
+		"source" : "/home/daniel-robayo/handIA2/ros/src/roshandmsg_pkg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

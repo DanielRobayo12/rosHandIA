@@ -1,0 +1,31 @@
+[0.628s] Invoking command in '/home/daniel-robayo/handIA2/ros/src/roshandia_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/daniel-robayo/handIA2/ros/src/build/roshandia_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/daniel-robayo/handIA2/ros/src/install/roshandia_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/roshandia_pkg build --build-base /home/daniel-robayo/handIA2/ros/src/build/roshandia_pkg/build install --record /home/daniel-robayo/handIA2/ros/src/build/roshandia_pkg/install.log --single-version-externally-managed install_data
+[0.833s] running egg_info
+[0.834s] creating ../build/roshandia_pkg/roshandia_pkg.egg-info
+[0.849s] writing ../build/roshandia_pkg/roshandia_pkg.egg-info/PKG-INFO
+[0.849s] writing dependency_links to ../build/roshandia_pkg/roshandia_pkg.egg-info/dependency_links.txt
+[0.849s] writing entry points to ../build/roshandia_pkg/roshandia_pkg.egg-info/entry_points.txt
+[0.850s] writing requirements to ../build/roshandia_pkg/roshandia_pkg.egg-info/requires.txt
+[0.850s] writing top-level names to ../build/roshandia_pkg/roshandia_pkg.egg-info/top_level.txt
+[0.850s] writing manifest file '../build/roshandia_pkg/roshandia_pkg.egg-info/SOURCES.txt'
+[0.880s] reading manifest file '../build/roshandia_pkg/roshandia_pkg.egg-info/SOURCES.txt'
+[0.881s] writing manifest file '../build/roshandia_pkg/roshandia_pkg.egg-info/SOURCES.txt'
+[0.881s] running build
+[0.881s] running build_py
+[0.881s] creating /home/daniel-robayo/handIA2/ros/src/build/roshandia_pkg/build
+[0.881s] creating /home/daniel-robayo/handIA2/ros/src/build/roshandia_pkg/build/lib
+[0.881s] creating /home/daniel-robayo/handIA2/ros/src/build/roshandia_pkg/build/lib/roshandia_pkg
+[0.881s] copying roshandia_pkg/__init__.py -> /home/daniel-robayo/handIA2/ros/src/build/roshandia_pkg/build/lib/roshandia_pkg
+[0.881s] copying roshandia_pkg/handRead01.py -> /home/daniel-robayo/handIA2/ros/src/build/roshandia_pkg/build/lib/roshandia_pkg
+[0.881s] running install
+[0.886s] running install_lib
+[0.902s] creating /home/daniel-robayo/handIA2/ros/src/install/roshandia_pkg/lib/python3.12/site-packages/roshandia_pkg
+[0.902s] copying /home/daniel-robayo/handIA2/ros/src/build/roshandia_pkg/build/lib/roshandia_pkg/__init__.py -> /home/daniel-robayo/handIA2/ros/src/install/roshandia_pkg/lib/python3.12/site-packages/roshandia_pkg
+[0.902s] copying /home/daniel-robayo/handIA2/ros/src/build/roshandia_pkg/build/lib/roshandia_pkg/handRead01.py -> /home/daniel-robayo/handIA2/ros/src/install/roshandia_pkg/lib/python3.12/site-packages/roshandia_pkg
+[0.902s] byte-compiling /home/daniel-robayo/handIA2/ros/src/install/roshandia_pkg/lib/python3.12/site-packages/roshandia_pkg/__init__.py to __init__.cpython-312.pyc
+[0.902s] byte-compiling /home/daniel-robayo/handIA2/ros/src/install/roshandia_pkg/lib/python3.12/site-packages/roshandia_pkg/handRead01.py to handRead01.cpython-312.pyc
+[0.903s] running install_data
+[0.903s] creating /home/daniel-robayo/handIA2/ros/src/install/roshandia_pkg/share/ament_index
+[0.903s] creating /home/daniel-robayo/handIA2/ros/src/install/roshandia_pkg/share/ament_index/resource_index
+[0.903s] error: can't copy 'resource/roshandia_pkg': doesn't exist or not a regular file
+[0.903s] creating /home/daniel-robayo/handIA2/ros/src/install/roshandia_pkg/share/ament_index/resource_index/packages
+[0.921s] Invoked command in '/home/daniel-robayo/handIA2/ros/src/roshandia_pkg' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/daniel-robayo/handIA2/ros/src/build/roshandia_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/daniel-robayo/handIA2/ros/src/install/roshandia_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/roshandia_pkg build --build-base /home/daniel-robayo/handIA2/ros/src/build/roshandia_pkg/build install --record /home/daniel-robayo/handIA2/ros/src/build/roshandia_pkg/install.log --single-version-externally-managed install_data
