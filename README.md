@@ -11,3 +11,15 @@ The name "handIA2" its free
 - To activate the Virtual enviroment drite
 
       souurce hadIA/bin/activate
+we can see out terminal like this
+
+`(handIA2) daniel-robayo@danirob:~/handIA2$`
+
+- In the **VE** opened we gonna install our libreries
+  
+        pip install mediapipe
+        pip install opencv-python
+        pip install numpy
+        pip install lark
+
+
