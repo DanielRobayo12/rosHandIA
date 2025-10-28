@@ -31,7 +31,7 @@ we can see out terminal like this
 Now we can work whit the artificial vision and ros2 enviroment
 
 
-> ## Move a robot hand whit artificial vision
+> ## Move a robotic hand whit artificial vision
 
 The physical conecction it's very important to can do work the proyect, after cheking the physical connection conect the .cpp file whit the ESP32 board
 
