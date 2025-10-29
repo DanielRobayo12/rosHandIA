@@ -34,6 +34,7 @@ setup(
         'console_scripts': [
             'handRead01 = roshandia_pkg.handRead01:main',
             'connectHand = roshandia_pkg.connectHand:main',
+            'joinStatePublisher = roshandia_pkg.joinStatePublisher:main',
         ],
     },
 )

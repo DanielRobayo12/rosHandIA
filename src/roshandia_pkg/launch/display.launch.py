@@ -8,7 +8,7 @@ def generate_launch_description():
     pkg_share = get_package_share_directory('roshandia_pkg')
     
     urdf_file = os.path.join(pkg_share,'urdf','hand.urdf')
-    rviz_file = os.path.join(pkg_share,'rviz2','config.rviz')
+    rviz_file = os.path.join(pkg_share,'rviz2','rviz2.rviz')
     
     with open(urdf_file, 'r') as infp:
         robot_desc = infp.read()
@@ -19,10 +19,8 @@ def generate_launch_description():
             executable='robot_state_publisher',
             parameters=[{'robot_description': robot_desc}]
         ),
-        Node(
-            package='joint_state_publisher_gui',
-            executable='joint_state_publisher_gui'
-        ),
+        
+        
         Node(
             package='rviz2',
             executable='rviz2',

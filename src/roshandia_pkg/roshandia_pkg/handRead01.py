@@ -49,8 +49,8 @@ def callTime(): #--------------------------------------CallTime
             hand = result.multi_hand_landmarks[0]
             
             #Copiar datos de landmarks
-            d1[0][0] = hand.landmark[2].x
-            d1[0][1] = hand.landmark[2].y
+            d1[0][0] = hand.landmark[0].x
+            d1[0][1] = hand.landmark[0].y
             d1[1][0] = hand.landmark[4].x
             d1[1][1] = hand.landmark[4].y
             
@@ -81,7 +81,12 @@ def callTime(): #--------------------------------------CallTime
             msg.d5 = float(distance(d5))
             
             pub.publish(msg)
-           # print(msg)
+            print(f"D1: {msg.d1}")
+            print(f"D2: {msg.d2}")
+            print(f"D3: {msg.d3}")
+            print(f"D4: {msg.d4}")
+            print(f"D5: {msg.d5}")
+                
         
             for hand_landmarks in result.multi_hand_landmarks:
                 mp_drawing.draw_landmarks(
@@ -106,7 +111,7 @@ def main(): # ///////////////////////////////////////// ------- Main
     
     
     #create a timer
-    time = node.create_timer(0.001,callTime)
+    time = node.create_timer(0.0001,callTime)
     
     
     rclpy.spin(node)

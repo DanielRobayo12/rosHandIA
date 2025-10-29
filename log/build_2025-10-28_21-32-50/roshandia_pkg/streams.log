@@ -1,0 +1,24 @@
+[0.670s] Invoking command in '/home/daniel-robayo/handIA2/ros/src/roshandia_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/daniel-robayo/handIA2/ros/build/roshandia_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/daniel-robayo/handIA2/ros/install/roshandia_pkg/lib/python3.12/site-packages:/home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/lib/python3.12/site-packages:/home/daniel-robayo/handIA2/ros/install/roshandia_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages VIRTUAL_ENV_PROMPT=(handIA2) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/roshandia_pkg build --build-base /home/daniel-robayo/handIA2/ros/build/roshandia_pkg/build install --record /home/daniel-robayo/handIA2/ros/build/roshandia_pkg/install.log --single-version-externally-managed install_data
+[0.888s] running egg_info
+[0.904s] writing ../../build/roshandia_pkg/roshandia_pkg.egg-info/PKG-INFO
+[0.904s] writing dependency_links to ../../build/roshandia_pkg/roshandia_pkg.egg-info/dependency_links.txt
+[0.904s] writing entry points to ../../build/roshandia_pkg/roshandia_pkg.egg-info/entry_points.txt
+[0.904s] writing requirements to ../../build/roshandia_pkg/roshandia_pkg.egg-info/requires.txt
+[0.904s] writing top-level names to ../../build/roshandia_pkg/roshandia_pkg.egg-info/top_level.txt
+[0.935s] reading manifest file '../../build/roshandia_pkg/roshandia_pkg.egg-info/SOURCES.txt'
+[0.936s] writing manifest file '../../build/roshandia_pkg/roshandia_pkg.egg-info/SOURCES.txt'
+[0.936s] running build
+[0.936s] running build_py
+[0.936s] running install
+[0.942s] running install_lib
+[0.959s] running install_data
+[0.959s] copying urdf/hand.urdf -> /home/daniel-robayo/handIA2/ros/install/roshandia_pkg/share/roshandia_pkg/urdf
+[0.960s] running install_egg_info
+[0.978s] removing '/home/daniel-robayo/handIA2/ros/install/roshandia_pkg/lib/python3.12/site-packages/roshandia_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[0.979s] Copying ../../build/roshandia_pkg/roshandia_pkg.egg-info to /home/daniel-robayo/handIA2/ros/install/roshandia_pkg/lib/python3.12/site-packages/roshandia_pkg-0.0.0-py3.12.egg-info
+[0.979s] running install_scripts
+[1.090s] Installing connectHand script to /home/daniel-robayo/handIA2/ros/install/roshandia_pkg/lib/roshandia_pkg
+[1.090s] Installing handRead01 script to /home/daniel-robayo/handIA2/ros/install/roshandia_pkg/lib/roshandia_pkg
+[1.090s] Installing joinStatePublisher script to /home/daniel-robayo/handIA2/ros/install/roshandia_pkg/lib/roshandia_pkg
+[1.090s] writing list of installed files to '/home/daniel-robayo/handIA2/ros/build/roshandia_pkg/install.log'
+[1.112s] Invoked command in '/home/daniel-robayo/handIA2/ros/src/roshandia_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/daniel-robayo/handIA2/ros/build/roshandia_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/daniel-robayo/handIA2/ros/install/roshandia_pkg/lib/python3.12/site-packages:/home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/lib/python3.12/site-packages:/home/daniel-robayo/handIA2/ros/install/roshandia_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages VIRTUAL_ENV_PROMPT=(handIA2) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/roshandia_pkg build --build-base /home/daniel-robayo/handIA2/ros/build/roshandia_pkg/build install --record /home/daniel-robayo/handIA2/ros/build/roshandia_pkg/install.log --single-version-externally-managed install_data

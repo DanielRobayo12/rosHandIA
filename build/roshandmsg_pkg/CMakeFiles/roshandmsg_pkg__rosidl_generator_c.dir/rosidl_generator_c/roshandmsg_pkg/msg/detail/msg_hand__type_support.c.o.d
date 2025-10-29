@@ -41,6 +41,7 @@ CMakeFiles/roshandmsg_pkg__rosidl_generator_c.dir/rosidl_generator_c/roshandmsg_
  /opt/ros/jazzy/include/rcutils/rcutils/visibility_control_macros.h \
  /opt/ros/jazzy/include/rcutils/rcutils/sha256.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
+ /home/daniel-robayo/handIA2/ros/build/roshandmsg_pkg/rosidl_generator_c/roshandmsg_pkg/msg/detail/msg_hand__struct.h \
  /home/daniel-robayo/handIA2/ros/build/roshandmsg_pkg/rosidl_generator_c/roshandmsg_pkg/msg/detail/msg_hand__functions.h \
  /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
@@ -69,5 +70,4 @@ CMakeFiles/roshandmsg_pkg__rosidl_generator_c.dir/rosidl_generator_c/roshandmsg_
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
- /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
- /home/daniel-robayo/handIA2/ros/build/roshandmsg_pkg/rosidl_generator_c/roshandmsg_pkg/msg/detail/msg_hand__struct.h
+ /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h

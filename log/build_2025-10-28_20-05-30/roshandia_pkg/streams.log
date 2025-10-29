@@ -1,0 +1,63 @@
+[0.661s] Invoking command in '/home/daniel-robayo/handIA2/ros/src/roshandia_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/daniel-robayo/handIA2/ros/build/roshandia_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/daniel-robayo/handIA2/ros/install/roshandia_pkg/lib/python3.12/site-packages:/home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/lib/python3.12/site-packages:/home/daniel-robayo/handIA2/ros/install/roshandia_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages VIRTUAL_ENV_PROMPT=(handIA2) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/roshandia_pkg build --build-base /home/daniel-robayo/handIA2/ros/build/roshandia_pkg/build install --record /home/daniel-robayo/handIA2/ros/build/roshandia_pkg/install.log --single-version-externally-managed install_data
+[0.871s] running egg_info
+[0.871s] creating ../../build/roshandia_pkg/roshandia_pkg.egg-info
+[0.886s] writing ../../build/roshandia_pkg/roshandia_pkg.egg-info/PKG-INFO
+[0.886s] writing dependency_links to ../../build/roshandia_pkg/roshandia_pkg.egg-info/dependency_links.txt
+[0.886s] writing entry points to ../../build/roshandia_pkg/roshandia_pkg.egg-info/entry_points.txt
+[0.887s] writing requirements to ../../build/roshandia_pkg/roshandia_pkg.egg-info/requires.txt
+[0.887s] writing top-level names to ../../build/roshandia_pkg/roshandia_pkg.egg-info/top_level.txt
+[0.887s] writing manifest file '../../build/roshandia_pkg/roshandia_pkg.egg-info/SOURCES.txt'
+[0.922s] reading manifest file '../../build/roshandia_pkg/roshandia_pkg.egg-info/SOURCES.txt'
+[0.922s] writing manifest file '../../build/roshandia_pkg/roshandia_pkg.egg-info/SOURCES.txt'
+[0.922s] running build
+[0.922s] running build_py
+[0.922s] creating /home/daniel-robayo/handIA2/ros/build/roshandia_pkg/build
+[0.923s] creating /home/daniel-robayo/handIA2/ros/build/roshandia_pkg/build/lib
+[0.923s] creating /home/daniel-robayo/handIA2/ros/build/roshandia_pkg/build/lib/roshandia_pkg
+[0.923s] copying roshandia_pkg/handPyReader.py -> /home/daniel-robayo/handIA2/ros/build/roshandia_pkg/build/lib/roshandia_pkg
+[0.923s] copying roshandia_pkg/__init__.py -> /home/daniel-robayo/handIA2/ros/build/roshandia_pkg/build/lib/roshandia_pkg
+[0.923s] copying roshandia_pkg/joinStatePublisher.py -> /home/daniel-robayo/handIA2/ros/build/roshandia_pkg/build/lib/roshandia_pkg
+[0.923s] copying roshandia_pkg/connectHand.py -> /home/daniel-robayo/handIA2/ros/build/roshandia_pkg/build/lib/roshandia_pkg
+[0.924s] copying roshandia_pkg/handRead01.py -> /home/daniel-robayo/handIA2/ros/build/roshandia_pkg/build/lib/roshandia_pkg
+[0.925s] running install
+[0.930s] running install_lib
+[0.944s] creating /home/daniel-robayo/handIA2/ros/install/roshandia_pkg/lib/python3.12/site-packages/roshandia_pkg
+[0.944s] copying /home/daniel-robayo/handIA2/ros/build/roshandia_pkg/build/lib/roshandia_pkg/handPyReader.py -> /home/daniel-robayo/handIA2/ros/install/roshandia_pkg/lib/python3.12/site-packages/roshandia_pkg
+[0.944s] copying /home/daniel-robayo/handIA2/ros/build/roshandia_pkg/build/lib/roshandia_pkg/__init__.py -> /home/daniel-robayo/handIA2/ros/install/roshandia_pkg/lib/python3.12/site-packages/roshandia_pkg
+[0.944s] copying /home/daniel-robayo/handIA2/ros/build/roshandia_pkg/build/lib/roshandia_pkg/joinStatePublisher.py -> /home/daniel-robayo/handIA2/ros/install/roshandia_pkg/lib/python3.12/site-packages/roshandia_pkg
+[0.944s] copying /home/daniel-robayo/handIA2/ros/build/roshandia_pkg/build/lib/roshandia_pkg/connectHand.py -> /home/daniel-robayo/handIA2/ros/install/roshandia_pkg/lib/python3.12/site-packages/roshandia_pkg
+[0.945s] copying /home/daniel-robayo/handIA2/ros/build/roshandia_pkg/build/lib/roshandia_pkg/handRead01.py -> /home/daniel-robayo/handIA2/ros/install/roshandia_pkg/lib/python3.12/site-packages/roshandia_pkg
+[0.945s] byte-compiling /home/daniel-robayo/handIA2/ros/install/roshandia_pkg/lib/python3.12/site-packages/roshandia_pkg/handPyReader.py to handPyReader.cpython-312.pyc
+[0.945s] byte-compiling /home/daniel-robayo/handIA2/ros/install/roshandia_pkg/lib/python3.12/site-packages/roshandia_pkg/__init__.py to __init__.cpython-312.pyc
+[0.945s] byte-compiling /home/daniel-robayo/handIA2/ros/install/roshandia_pkg/lib/python3.12/site-packages/roshandia_pkg/joinStatePublisher.py to joinStatePublisher.cpython-312.pyc
+[0.946s] byte-compiling /home/daniel-robayo/handIA2/ros/install/roshandia_pkg/lib/python3.12/site-packages/roshandia_pkg/connectHand.py to connectHand.cpython-312.pyc
+[0.946s] byte-compiling /home/daniel-robayo/handIA2/ros/install/roshandia_pkg/lib/python3.12/site-packages/roshandia_pkg/handRead01.py to handRead01.cpython-312.pyc
+[0.947s] running install_data
+[0.947s] creating /home/daniel-robayo/handIA2/ros/install/roshandia_pkg/share/ament_index
+[0.947s] creating /home/daniel-robayo/handIA2/ros/install/roshandia_pkg/share/ament_index/resource_index
+[0.947s] creating /home/daniel-robayo/handIA2/ros/install/roshandia_pkg/share/ament_index/resource_index/packages
+[0.947s] copying resource/roshandia_pkg -> /home/daniel-robayo/handIA2/ros/install/roshandia_pkg/share/ament_index/resource_index/packages
+[0.947s] copying package.xml -> /home/daniel-robayo/handIA2/ros/install/roshandia_pkg/share/roshandia_pkg
+[0.947s] creating /home/daniel-robayo/handIA2/ros/install/roshandia_pkg/share/roshandia_pkg/urdf
+[0.947s] copying urdf/hand.urdf -> /home/daniel-robayo/handIA2/ros/install/roshandia_pkg/share/roshandia_pkg/urdf
+[0.948s] creating /home/daniel-robayo/handIA2/ros/install/roshandia_pkg/share/roshandia_pkg/launch
+[0.948s] copying launch/display.launch.py -> /home/daniel-robayo/handIA2/ros/install/roshandia_pkg/share/roshandia_pkg/launch
+[0.948s] creating /home/daniel-robayo/handIA2/ros/install/roshandia_pkg/share/roshandia_pkg/urdf/mesh
+[0.948s] copying urdf/mesh/handHidenFingersF.stl -> /home/daniel-robayo/handIA2/ros/install/roshandia_pkg/share/roshandia_pkg/urdf/mesh
+[0.948s] copying urdf/mesh/blade.stl -> /home/daniel-robayo/handIA2/ros/install/roshandia_pkg/share/roshandia_pkg/urdf/mesh
+[0.949s] copying urdf/mesh/finger4.stl -> /home/daniel-robayo/handIA2/ros/install/roshandia_pkg/share/roshandia_pkg/urdf/mesh
+[0.949s] copying urdf/mesh/finger1.stl -> /home/daniel-robayo/handIA2/ros/install/roshandia_pkg/share/roshandia_pkg/urdf/mesh
+[0.949s] copying urdf/mesh/hand.stl -> /home/daniel-robayo/handIA2/ros/install/roshandia_pkg/share/roshandia_pkg/urdf/mesh
+[0.949s] copying urdf/mesh/finger5.stl -> /home/daniel-robayo/handIA2/ros/install/roshandia_pkg/share/roshandia_pkg/urdf/mesh
+[0.949s] copying urdf/mesh/finger2.stl -> /home/daniel-robayo/handIA2/ros/install/roshandia_pkg/share/roshandia_pkg/urdf/mesh
+[0.950s] copying urdf/mesh/finger3.stl -> /home/daniel-robayo/handIA2/ros/install/roshandia_pkg/share/roshandia_pkg/urdf/mesh
+[0.950s] copying urdf/mesh/arm.stl -> /home/daniel-robayo/handIA2/ros/install/roshandia_pkg/share/roshandia_pkg/urdf/mesh
+[0.951s] creating /home/daniel-robayo/handIA2/ros/install/roshandia_pkg/share/roshandia_pkg/rviz
+[0.951s] running install_egg_info
+[0.969s] Copying ../../build/roshandia_pkg/roshandia_pkg.egg-info to /home/daniel-robayo/handIA2/ros/install/roshandia_pkg/lib/python3.12/site-packages/roshandia_pkg-0.0.0-py3.12.egg-info
+[0.970s] running install_scripts
+[1.072s] Installing connectHand script to /home/daniel-robayo/handIA2/ros/install/roshandia_pkg/lib/roshandia_pkg
+[1.072s] Installing handRead01 script to /home/daniel-robayo/handIA2/ros/install/roshandia_pkg/lib/roshandia_pkg
+[1.072s] Installing joinStatePublisher script to /home/daniel-robayo/handIA2/ros/install/roshandia_pkg/lib/roshandia_pkg
+[1.072s] writing list of installed files to '/home/daniel-robayo/handIA2/ros/build/roshandia_pkg/install.log'
+[1.095s] Invoked command in '/home/daniel-robayo/handIA2/ros/src/roshandia_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/daniel-robayo/handIA2/ros/build/roshandia_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/daniel-robayo/handIA2/ros/install/roshandia_pkg/lib/python3.12/site-packages:/home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/lib/python3.12/site-packages:/home/daniel-robayo/handIA2/ros/install/roshandia_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages VIRTUAL_ENV_PROMPT=(handIA2) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/roshandia_pkg build --build-base /home/daniel-robayo/handIA2/ros/build/roshandia_pkg/build install --record /home/daniel-robayo/handIA2/ros/build/roshandia_pkg/install.log --single-version-externally-managed install_data

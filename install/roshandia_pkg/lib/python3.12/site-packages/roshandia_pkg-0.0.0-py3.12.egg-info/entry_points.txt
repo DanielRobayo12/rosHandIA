@@ -1,3 +1,4 @@
 [console_scripts]
 connectHand = roshandia_pkg.connectHand:main
 handRead01 = roshandia_pkg.handRead01:main
+joinStatePublisher = roshandia_pkg.joinStatePublisher:main
