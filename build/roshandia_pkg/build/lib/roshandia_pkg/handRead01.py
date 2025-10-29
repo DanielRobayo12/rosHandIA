@@ -81,11 +81,11 @@ def callTime(): #--------------------------------------CallTime
             msg.d5 = float(distance(d5))
             
             pub.publish(msg)
-            print(f"D1: {msg.d1}")
+            """print(f"D1: {msg.d1}")
             print(f"D2: {msg.d2}")
             print(f"D3: {msg.d3}")
             print(f"D4: {msg.d4}")
-            print(f"D5: {msg.d5}")
+            print(f"D5: {msg.d5}")"""
                 
         
             for hand_landmarks in result.multi_hand_landmarks:

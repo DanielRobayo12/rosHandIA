@@ -18,13 +18,21 @@ def generate_launch_description():
             package='robot_state_publisher',
             executable='robot_state_publisher',
             parameters=[{'robot_description': robot_desc}]
-        ),
-        
-        
+        ),        
         Node(
             package='rviz2',
             executable='rviz2',
             arguments=['-d',rviz_file],
             output = 'screen',
-        )
+        ),
+        Node(
+            package='roshandia_pkg',
+            executable='handRead01',
+            output = 'screen',
+        ),
+        Node(
+            package='roshandia_pkg',
+            executable='joinStatePublisher',
+            output="screen",
+        ),
     ])

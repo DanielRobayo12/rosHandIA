@@ -13,10 +13,10 @@ def maping(x:float, in_min:float,in_max:float):
     out_min = -1.22
     out_max = 0
     
-    
     #limit input data
     y = np.clip(x,in_min,in_max)
-    return ((y - in_min) * (out_max - out_min) / (in_max - in_min) + out_min)
+    num = ((x - in_min) * (out_max - out_min) / (in_max - in_min) + out_min)
+    return num
 
 #map funcion like an arduino funcion
 def maping1(x): 
@@ -39,8 +39,8 @@ def callback(msg:MsgHand):
     join = JointState()
     joints = ["f1_to_hand","f2_to_hand","f3_to_hand","f4_to_hand","f5_to_hand"]
     nums = [msg.d1, msg.d2, msg.d3, msg.d4, msg.d5]
-    min_r = [0.06, 0.25, 0.25,0.21]
-    max_r = [0.2, 0.1, 0.1, 0.01]
+    min_r = [0.06, 0.1, 0.1,0.01]
+    max_r = [0.2, 0.25, 0.25, 0.21]
     numRad = []
     
     
@@ -50,6 +50,7 @@ def callback(msg:MsgHand):
     for j in nums[1:]:
         numRad.append(maping(j,min_r[i],max_r[i]))
         i = i+1
+        #print(f"D{i}: {numRad[i]}")
 
     #set the valors to the JoinState mensage
     for i in range(len(joints)):
@@ -58,7 +59,7 @@ def callback(msg:MsgHand):
         join.effort.append(100)
         join.velocity.append(0.5)
         #print(f"D{i+1}: {numRad[i]}")
-        print(f"D{i+1}: {join.position[i]}")
+        #print(f"D{i+1}: {join.position[i]}")
     join.header.stamp = node.get_clock().now().to_msg()
     pub.publish(join)
 
