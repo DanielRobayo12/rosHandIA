@@ -43,6 +43,16 @@ The physical conecction it's very important to can do work the proyect, after ch
         ros2 run roshandia_pkg connectHand.py
   And enjoy whith the robot hand controlled by yourself
 
+> ## Move the hand and sim whit Artificial Vision
+
+- Launch display.launch.py
+
+      ros2 launch roshandia_pkg display.launch.py
+
+In rziz go to "add" and pick "RobotModel", in descripcion topic select "/robot_description", if the model don´t load, select in "Fixed Frame" the joint "arm"
+
+      
+
 
 
 
