@@ -1,0 +1,147 @@
+[0.023s] Invoking command in '/home/daniel-robayo/handIA2/ros/build/roshandmsg_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel-robayo/handIA2/ros/install/roshandia_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(handIA2) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(handIA2) /usr/bin/cmake --build /home/daniel-robayo/handIA2/ros/build/roshandmsg_pkg -- -j12 -l12
+[0.133s] [  2%] Built target roshandmsg_pkg__rosidl_generator_type_description
+[0.153s] [  2%] Built target ament_cmake_python_copy_roshandmsg_pkg
+[0.179s] [  5%] Built target roshandmsg_pkg__cpp
+[0.180s] [ 20%] Built target roshandmsg_pkg__rosidl_generator_c
+[0.230s] [ 38%] Built target roshandmsg_pkg__rosidl_typesupport_cpp
+[0.231s] [ 44%] Built target roshandmsg_pkg__rosidl_typesupport_fastrtps_c
+[0.231s] [ 50%] Built target roshandmsg_pkg__rosidl_typesupport_introspection_cpp
+[0.231s] [ 55%] Built target roshandmsg_pkg__rosidl_typesupport_fastrtps_cpp
+[0.235s] [ 64%] Built target roshandmsg_pkg__rosidl_typesupport_introspection_c
+[0.246s] [ 73%] Built target roshandmsg_pkg__rosidl_typesupport_c
+[0.291s] [ 73%] Built target roshandmsg_pkg
+[0.338s] [ 76%] Built target roshandmsg_pkg__py
+[0.389s] [ 82%] Built target roshandmsg_pkg__rosidl_generator_py
+[0.441s] [ 88%] Built target roshandmsg_pkg_s__rosidl_typesupport_fastrtps_c
+[0.441s] [ 97%] Built target roshandmsg_pkg_s__rosidl_typesupport_introspection_c
+[0.442s] [100%] Built target roshandmsg_pkg_s__rosidl_typesupport_c
+[0.600s] running egg_info
+[0.629s] writing roshandmsg_pkg.egg-info/PKG-INFO
+[0.630s] writing dependency_links to roshandmsg_pkg.egg-info/dependency_links.txt
+[0.631s] writing top-level names to roshandmsg_pkg.egg-info/top_level.txt
+[0.715s] reading manifest file 'roshandmsg_pkg.egg-info/SOURCES.txt'
+[0.717s] writing manifest file 'roshandmsg_pkg.egg-info/SOURCES.txt'
+[0.783s] [100%] Built target ament_cmake_python_build_roshandmsg_pkg_egg
+[0.810s] Invoked command in '/home/daniel-robayo/handIA2/ros/build/roshandmsg_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel-robayo/handIA2/ros/install/roshandia_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(handIA2) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(handIA2) /usr/bin/cmake --build /home/daniel-robayo/handIA2/ros/build/roshandmsg_pkg -- -j12 -l12
+[0.833s] Invoking command in '/home/daniel-robayo/handIA2/ros/build/roshandmsg_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel-robayo/handIA2/ros/install/roshandia_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(handIA2) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(handIA2) /usr/bin/cmake --install /home/daniel-robayo/handIA2/ros/build/roshandmsg_pkg
+[0.852s] -- Install configuration: ""
+[0.852s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/share/ament_index/resource_index/rosidl_interfaces/roshandmsg_pkg
+[0.852s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/share/roshandmsg_pkg/msg/MsgHand.json
+[0.852s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/include/roshandmsg_pkg/roshandmsg_pkg
+[0.853s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/include/roshandmsg_pkg/roshandmsg_pkg/msg
+[0.853s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/include/roshandmsg_pkg/roshandmsg_pkg/msg/rosidl_generator_c__visibility_control.h
+[0.853s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/include/roshandmsg_pkg/roshandmsg_pkg/msg/msg_hand.h
+[0.854s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/include/roshandmsg_pkg/roshandmsg_pkg/msg/detail
+[0.854s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/include/roshandmsg_pkg/roshandmsg_pkg/msg/detail/msg_hand__type_support.h
+[0.854s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/include/roshandmsg_pkg/roshandmsg_pkg/msg/detail/msg_hand__functions.c
+[0.854s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/include/roshandmsg_pkg/roshandmsg_pkg/msg/detail/msg_hand__description.c
+[0.854s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/include/roshandmsg_pkg/roshandmsg_pkg/msg/detail/msg_hand__functions.h
+[0.855s] -- Installing: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/include/roshandmsg_pkg/roshandmsg_pkg/msg/detail/msg_hand__type_support.c
+[0.855s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/include/roshandmsg_pkg/roshandmsg_pkg/msg/detail/msg_hand__struct.h
+[0.855s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/share/roshandmsg_pkg/environment/library_path.sh
+[0.855s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/share/roshandmsg_pkg/environment/library_path.dsv
+[0.855s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/lib/libroshandmsg_pkg__rosidl_generator_c.so
+[0.856s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/include/roshandmsg_pkg/roshandmsg_pkg
+[0.856s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/include/roshandmsg_pkg/roshandmsg_pkg/msg
+[0.856s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/include/roshandmsg_pkg/roshandmsg_pkg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.856s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/include/roshandmsg_pkg/roshandmsg_pkg/msg/detail
+[0.857s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/include/roshandmsg_pkg/roshandmsg_pkg/msg/detail/msg_hand__rosidl_typesupport_fastrtps_c.h
+[0.857s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/lib/libroshandmsg_pkg__rosidl_typesupport_fastrtps_c.so
+[0.857s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/include/roshandmsg_pkg/roshandmsg_pkg
+[0.857s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/include/roshandmsg_pkg/roshandmsg_pkg/msg
+[0.857s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/include/roshandmsg_pkg/roshandmsg_pkg/msg/detail
+[0.857s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/include/roshandmsg_pkg/roshandmsg_pkg/msg/detail/msg_hand__rosidl_typesupport_introspection_c.h
+[0.858s] -- Installing: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/include/roshandmsg_pkg/roshandmsg_pkg/msg/detail/msg_hand__type_support.c
+[0.858s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/include/roshandmsg_pkg/roshandmsg_pkg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.858s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/lib/libroshandmsg_pkg__rosidl_typesupport_introspection_c.so
+[0.858s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/lib/libroshandmsg_pkg__rosidl_typesupport_c.so
+[0.858s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/include/roshandmsg_pkg/roshandmsg_pkg
+[0.858s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/include/roshandmsg_pkg/roshandmsg_pkg/msg
+[0.859s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/include/roshandmsg_pkg/roshandmsg_pkg/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.859s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/include/roshandmsg_pkg/roshandmsg_pkg/msg/msg_hand.hpp
+[0.859s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/include/roshandmsg_pkg/roshandmsg_pkg/msg/detail
+[0.859s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/include/roshandmsg_pkg/roshandmsg_pkg/msg/detail/msg_hand__struct.hpp
+[0.859s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/include/roshandmsg_pkg/roshandmsg_pkg/msg/detail/msg_hand__type_support.hpp
+[0.860s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/include/roshandmsg_pkg/roshandmsg_pkg/msg/detail/msg_hand__builder.hpp
+[0.860s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/include/roshandmsg_pkg/roshandmsg_pkg/msg/detail/msg_hand__traits.hpp
+[0.860s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/include/roshandmsg_pkg/roshandmsg_pkg
+[0.860s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/include/roshandmsg_pkg/roshandmsg_pkg/msg
+[0.860s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/include/roshandmsg_pkg/roshandmsg_pkg/msg/detail
+[0.860s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/include/roshandmsg_pkg/roshandmsg_pkg/msg/detail/dds_fastrtps
+[0.861s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/include/roshandmsg_pkg/roshandmsg_pkg/msg/detail/msg_hand__rosidl_typesupport_fastrtps_cpp.hpp
+[0.861s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/include/roshandmsg_pkg/roshandmsg_pkg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.861s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/lib/libroshandmsg_pkg__rosidl_typesupport_fastrtps_cpp.so
+[0.861s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/include/roshandmsg_pkg/roshandmsg_pkg
+[0.861s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/include/roshandmsg_pkg/roshandmsg_pkg/msg
+[0.861s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/include/roshandmsg_pkg/roshandmsg_pkg/msg/detail
+[0.861s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/include/roshandmsg_pkg/roshandmsg_pkg/msg/detail/msg_hand__rosidl_typesupport_introspection_cpp.hpp
+[0.862s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/include/roshandmsg_pkg/roshandmsg_pkg/msg/detail/msg_hand__type_support.cpp
+[0.862s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/lib/libroshandmsg_pkg__rosidl_typesupport_introspection_cpp.so
+[0.862s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/lib/libroshandmsg_pkg__rosidl_typesupport_cpp.so
+[0.862s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/share/roshandmsg_pkg/environment/pythonpath.sh
+[0.862s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/share/roshandmsg_pkg/environment/pythonpath.dsv
+[0.862s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/lib/python3.12/site-packages/roshandmsg_pkg-0.0.0-py3.12.egg-info
+[0.862s] -- Installing: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/lib/python3.12/site-packages/roshandmsg_pkg-0.0.0-py3.12.egg-info/SOURCES.txt
+[0.863s] -- Installing: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/lib/python3.12/site-packages/roshandmsg_pkg-0.0.0-py3.12.egg-info/dependency_links.txt
+[0.863s] -- Installing: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/lib/python3.12/site-packages/roshandmsg_pkg-0.0.0-py3.12.egg-info/PKG-INFO
+[0.863s] -- Installing: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/lib/python3.12/site-packages/roshandmsg_pkg-0.0.0-py3.12.egg-info/top_level.txt
+[0.863s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/lib/python3.12/site-packages/roshandmsg_pkg
+[0.863s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/lib/python3.12/site-packages/roshandmsg_pkg/_roshandmsg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.863s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/lib/python3.12/site-packages/roshandmsg_pkg/roshandmsg_pkg_s__rosidl_typesupport_introspection_c.so
+[0.863s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/lib/python3.12/site-packages/roshandmsg_pkg/__init__.py
+[0.863s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/lib/python3.12/site-packages/roshandmsg_pkg/roshandmsg_pkg_s__rosidl_typesupport_fastrtps_c.so
+[0.864s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/lib/python3.12/site-packages/roshandmsg_pkg/roshandmsg_pkg_s__rosidl_typesupport_c.so
+[0.864s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/lib/python3.12/site-packages/roshandmsg_pkg/_roshandmsg_pkg_s.ep.rosidl_typesupport_introspection_c.c
+[0.864s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/lib/python3.12/site-packages/roshandmsg_pkg/msg
+[0.864s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/lib/python3.12/site-packages/roshandmsg_pkg/msg/_msg_hand_s.c
+[0.864s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/lib/python3.12/site-packages/roshandmsg_pkg/msg/__init__.py
+[0.864s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/lib/python3.12/site-packages/roshandmsg_pkg/msg/_msg_hand.py
+[0.864s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/lib/python3.12/site-packages/roshandmsg_pkg/_roshandmsg_pkg_s.ep.rosidl_typesupport_c.c
+[0.936s] Listing '/home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/lib/python3.12/site-packages/roshandmsg_pkg'...
+[0.937s] Listing '/home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/lib/python3.12/site-packages/roshandmsg_pkg/msg'...
+[0.948s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/lib/python3.12/site-packages/roshandmsg_pkg/roshandmsg_pkg_s__rosidl_typesupport_fastrtps_c.so
+[0.948s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/lib/python3.12/site-packages/roshandmsg_pkg/roshandmsg_pkg_s__rosidl_typesupport_introspection_c.so
+[0.949s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/lib/python3.12/site-packages/roshandmsg_pkg/roshandmsg_pkg_s__rosidl_typesupport_c.so
+[0.949s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/lib/libroshandmsg_pkg__rosidl_generator_py.so
+[0.950s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/share/roshandmsg_pkg/msg/MsgHand.idl
+[0.950s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/share/roshandmsg_pkg/msg/MsgHand.msg
+[0.950s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/share/ament_index/resource_index/package_run_dependencies/roshandmsg_pkg
+[0.950s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/share/ament_index/resource_index/parent_prefix_path/roshandmsg_pkg
+[0.951s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/share/roshandmsg_pkg/environment/ament_prefix_path.sh
+[0.951s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/share/roshandmsg_pkg/environment/ament_prefix_path.dsv
+[0.951s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/share/roshandmsg_pkg/environment/path.sh
+[0.951s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/share/roshandmsg_pkg/environment/path.dsv
+[0.951s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/share/roshandmsg_pkg/local_setup.bash
+[0.951s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/share/roshandmsg_pkg/local_setup.sh
+[0.952s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/share/roshandmsg_pkg/local_setup.zsh
+[0.952s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/share/roshandmsg_pkg/local_setup.dsv
+[0.952s] -- Installing: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/share/roshandmsg_pkg/package.dsv
+[0.953s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/share/ament_index/resource_index/packages/roshandmsg_pkg
+[0.953s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/share/roshandmsg_pkg/cmake/export_roshandmsg_pkg__rosidl_generator_cExport.cmake
+[0.953s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/share/roshandmsg_pkg/cmake/export_roshandmsg_pkg__rosidl_generator_cExport-noconfig.cmake
+[0.953s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/share/roshandmsg_pkg/cmake/export_roshandmsg_pkg__rosidl_typesupport_fastrtps_cExport.cmake
+[0.954s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/share/roshandmsg_pkg/cmake/export_roshandmsg_pkg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.954s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/share/roshandmsg_pkg/cmake/roshandmsg_pkg__rosidl_typesupport_introspection_cExport.cmake
+[0.954s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/share/roshandmsg_pkg/cmake/roshandmsg_pkg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.954s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/share/roshandmsg_pkg/cmake/roshandmsg_pkg__rosidl_typesupport_cExport.cmake
+[0.954s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/share/roshandmsg_pkg/cmake/roshandmsg_pkg__rosidl_typesupport_cExport-noconfig.cmake
+[0.954s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/share/roshandmsg_pkg/cmake/export_roshandmsg_pkg__rosidl_generator_cppExport.cmake
+[0.954s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/share/roshandmsg_pkg/cmake/export_roshandmsg_pkg__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.955s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/share/roshandmsg_pkg/cmake/export_roshandmsg_pkg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.955s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/share/roshandmsg_pkg/cmake/roshandmsg_pkg__rosidl_typesupport_introspection_cppExport.cmake
+[0.955s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/share/roshandmsg_pkg/cmake/roshandmsg_pkg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.955s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/share/roshandmsg_pkg/cmake/roshandmsg_pkg__rosidl_typesupport_cppExport.cmake
+[0.955s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/share/roshandmsg_pkg/cmake/roshandmsg_pkg__rosidl_typesupport_cppExport-noconfig.cmake
+[0.955s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/share/roshandmsg_pkg/cmake/export_roshandmsg_pkg__rosidl_generator_pyExport.cmake
+[0.955s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/share/roshandmsg_pkg/cmake/export_roshandmsg_pkg__rosidl_generator_pyExport-noconfig.cmake
+[0.956s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/share/roshandmsg_pkg/cmake/rosidl_cmake-extras.cmake
+[0.956s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/share/roshandmsg_pkg/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.956s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/share/roshandmsg_pkg/cmake/ament_cmake_export_libraries-extras.cmake
+[0.956s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/share/roshandmsg_pkg/cmake/ament_cmake_export_targets-extras.cmake
+[0.956s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/share/roshandmsg_pkg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.956s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/share/roshandmsg_pkg/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.956s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/share/roshandmsg_pkg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.957s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/share/roshandmsg_pkg/cmake/roshandmsg_pkgConfig.cmake
+[0.957s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/share/roshandmsg_pkg/cmake/roshandmsg_pkgConfig-version.cmake
+[0.957s] -- Up-to-date: /home/daniel-robayo/handIA2/ros/install/roshandmsg_pkg/share/roshandmsg_pkg/package.xml
+[0.959s] Invoked command in '/home/daniel-robayo/handIA2/ros/build/roshandmsg_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel-robayo/handIA2/ros/install/roshandia_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(handIA2) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(handIA2) /usr/bin/cmake --install /home/daniel-robayo/handIA2/ros/build/roshandmsg_pkg

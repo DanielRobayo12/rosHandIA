@@ -35,4 +35,9 @@ def generate_launch_description():
             executable='joinStatePublisher',
             output="screen",
         ),
+        Node(
+            package='roshandia_pkg',
+            executable='connectHand',
+
+        )
     ])

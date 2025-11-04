@@ -111,7 +111,7 @@ def main(): # ///////////////////////////////////////// ------- Main
     
     
     #create a timer
-    time = node.create_timer(0.0001,callTime)
+    time = node.create_timer(0.001,callTime)
     
     
     rclpy.spin(node)
