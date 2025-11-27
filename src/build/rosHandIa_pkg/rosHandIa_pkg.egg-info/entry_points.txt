@@ -1,2 +1,0 @@
-[console_scripts]
-handRead01 = rosHandIa_pkg.handRead01:main
