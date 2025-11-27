@@ -50,11 +50,9 @@ void loop() {
       val =input.substring(3).toFloat();
       pca.setPWM(0,0,con1(val));
 
-      //Serial.print("Estado D1: Funcionando: ");
-      //Serial.print("val: ");
-      //Serial.println(val,6);
-      Serial.print("con1: ");
-      Serial.println(con1(val));
+
+      //Serial.print("con1: ");
+      //Serial.println(con1(val));
     }
     if(input.startsWith("D2")){ // ------------------------D2
       val = input.substring(3).toFloat();
@@ -62,8 +60,6 @@ void loop() {
       
       Serial.print("con2: ");
       Serial.println(con1(val));
-      //Serial.print("Estado D2: Funcionando: ");
-      //Serial.println(val);
     }
     if(input.startsWith("D3")){ // ------------------------D3
       val = input.substring(3).toFloat();
@@ -71,69 +67,64 @@ void loop() {
 
       Serial.print("con3: ");
       Serial.println(con1(val));
-      //Serial.print("Estado D3: Funcionando: ");
-      //Serial.println(val);
     }
     if(input.startsWith("D4")){ // ------------------------D4
       val = input.substring(3).toFloat();
       pca.setPWM(3,0,con4(val));
 
-      Serial.print("con4: ");
-      Serial.println(con1(val));
-
-      //Serial.print("Estado D4: Funcionando: ");
-      //Serial.println(val);
+      //Serial.print("con4: ");
+      //Serial.println(con1(val));
     }
-    /*if(input.startsWith("D5")){ // ------------------------D5
+    if(input.startsWith("D5")){ // ------------------------D5
       val = input.substring(3).toFloat();
       pca.setPWM(4,0,con5(val));
       //Serial.print("Estado D5: Funcionando: ");
       //Serial.println(val);
-    }*/
-    delay(20);
+    }
+    
   }
 
 }
 
 int con1(float num){
   num = num*100;
-  i = constrain(num,(0.09*100),(0.12*100));
-  j = map(i,(0.09*100),(0.12*100),100,400);  
+  //i = constrain(num,(0.09*100),(0.12*100));
+  j = map(num,(0.09*100),(0.12*100),100,400);  
   return j;
   // open 0.12
   // close 0.09
 }
 float con2(float num){
   num = num*100;
-  i = constrain(num,(0.06*100),(0.2*100));
-  j = map(i,(0.06*100),(0.2*100),400,100);  
+  //i = constrain(num,(0.06*100),(0.2*100));
+  j = map(num,(0.06*100),(0.2*100),400,100);  
   return j;
   // open 0.2
   // close 0.06
 }
 float con3(float num){
   num = num*100;
-  i = constrain(num,(0.1*100),(0.25*100));
-  j = map(i,(0.1*100),(0.25*100),400,100);  
+  //i = constrain(num,(0.1*100),(0.25*100));
+  j = map(num,(0.1*100),(0.25*100),400,100);  
   return j;
   // open 0.25
   // close 0.1
 }
 float con4(float num){
   num = num*100;
-  i = constrain(num,(0.1*100),(0.25*100));
-  j = map(i,(0.1*100),(0.25*100),400,100);  
+  //i = constrain(num,(0.1*100),(0.25*100));
+  j = map(num,(0.1*100),(0.25*100),400,100);  
   return j;
   // open 0.25
   // close 0.1
 }
 float con5(float num){
   num = num*100;
-  i = constrain(num,(0.01*100),(0.21*100));
-  j = map(i,(0.01*100),(0.21*100),400,100);  
+  //i = constrain(num,(0.01*100),(0.21*100));
+  j = map(num,(0.18*100),(0.31*100),100,100);  
   return j;
-  // open 0.21
-  // close 0.01
+  // open 0.31
+  // close 0.018
 }
 
 

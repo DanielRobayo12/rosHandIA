@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/roshandia_pkg/roshandia_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/roshandia_pkg/roshandia_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/roshandia_pkg/roshandia_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/roshandia_pkg/roshandia_pkg.egg-info/requires.txt
+writing top-level names to ../../build/roshandia_pkg/roshandia_pkg.egg-info/top_level.txt
+reading manifest file '../../build/roshandia_pkg/roshandia_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/roshandia_pkg/roshandia_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying launch/spawn_world.launch.py -> /home/daniel-robayo/handIA2/ros/install/roshandia_pkg/share/roshandia_pkg/launch
+copying worlds/world.sdf -> /home/daniel-robayo/handIA2/ros/install/roshandia_pkg/share/roshandia_pkg/worlds
+running install_egg_info
+removing '/home/daniel-robayo/handIA2/ros/install/roshandia_pkg/lib/python3.12/site-packages/roshandia_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/roshandia_pkg/roshandia_pkg.egg-info to /home/daniel-robayo/handIA2/ros/install/roshandia_pkg/lib/python3.12/site-packages/roshandia_pkg-0.0.0-py3.12.egg-info
+running install_scripts
+Installing connectHand script to /home/daniel-robayo/handIA2/ros/install/roshandia_pkg/lib/roshandia_pkg
+Installing handRead01 script to /home/daniel-robayo/handIA2/ros/install/roshandia_pkg/lib/roshandia_pkg
+Installing joinStatePublisher script to /home/daniel-robayo/handIA2/ros/install/roshandia_pkg/lib/roshandia_pkg
+writing list of installed files to '/home/daniel-robayo/handIA2/ros/build/roshandia_pkg/install.log'

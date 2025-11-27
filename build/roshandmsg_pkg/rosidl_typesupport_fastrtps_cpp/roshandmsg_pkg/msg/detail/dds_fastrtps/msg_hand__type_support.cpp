@@ -51,6 +51,9 @@ cdr_serialize(
   // Member: d5
   cdr << ros_message.d5;
 
+  // Member: s
+  cdr << ros_message.s;
+
   return true;
 }
 
@@ -74,6 +77,9 @@ cdr_deserialize(
 
   // Member: d5
   cdr >> ros_message.d5;
+
+  // Member: s
+  cdr >> ros_message.s;
 
   return true;
 }  // NOLINT(readability/fn_size)
@@ -123,6 +129,13 @@ get_serialized_size(
   // Member: d5
   {
     size_t item_size = sizeof(ros_message.d5);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+
+  // Member: s
+  {
+    size_t item_size = sizeof(ros_message.s);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -185,6 +198,13 @@ max_serialized_size_MsgHand(
     current_alignment += array_size * sizeof(uint32_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
   }
+  // Member: s
+  {
+    size_t array_size = 1;
+    last_member_size = array_size * sizeof(uint32_t);
+    current_alignment += array_size * sizeof(uint32_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
+  }
 
   size_t ret_val = current_alignment - initial_alignment;
   if (is_plain) {
@@ -194,7 +214,7 @@ max_serialized_size_MsgHand(
     using DataType = roshandmsg_pkg::msg::MsgHand;
     is_plain =
       (
-      offsetof(DataType, d5) +
+      offsetof(DataType, s) +
       last_member_size
       ) == ret_val;
   }
@@ -222,6 +242,9 @@ cdr_serialize_key(
 
   // Member: d5
   cdr << ros_message.d5;
+
+  // Member: s
+  cdr << ros_message.s;
 
   return true;
 }
@@ -270,6 +293,13 @@ get_serialized_size_key(
   // Member: d5
   {
     size_t item_size = sizeof(ros_message.d5);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+
+  // Member: s
+  {
+    size_t item_size = sizeof(ros_message.s);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -336,6 +366,14 @@ max_serialized_size_key_MsgHand(
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
   }
 
+  // Member: s
+  {
+    size_t array_size = 1;
+    last_member_size = array_size * sizeof(uint32_t);
+    current_alignment += array_size * sizeof(uint32_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
+  }
+
   size_t ret_val = current_alignment - initial_alignment;
   if (is_plain) {
     // All members are plain, and type is not empty.
@@ -344,7 +382,7 @@ max_serialized_size_key_MsgHand(
     using DataType = roshandmsg_pkg::msg::MsgHand;
     is_plain =
       (
-      offsetof(DataType, d5) +
+      offsetof(DataType, s) +
       last_member_size
       ) == ret_val;
   }

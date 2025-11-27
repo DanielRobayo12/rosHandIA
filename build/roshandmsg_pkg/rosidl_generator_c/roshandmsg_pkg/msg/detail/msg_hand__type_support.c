@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "roshandmsg_pkg/msg/detail/msg_hand__type_support.h"
 #include "roshandmsg_pkg/msg/detail/msg_hand__struct.h"
-#include "rosidl_typesupport_interface/macros.h"
+#include "roshandmsg_pkg/msg/detail/msg_hand__type_support.h"
 #include "roshandmsg_pkg/msg/detail/msg_hand__functions.h"
+#include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus
 extern "C"

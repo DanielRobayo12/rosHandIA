@@ -52,6 +52,16 @@
             "nested_type_name": ""
           },
           "default_value": ""
+        },
+        {
+          "name": "s",
+          "type": {
+            "type_id": 10,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
         }
       ]
     },
@@ -60,7 +70,7 @@
   "type_hashes": [
     {
       "type_name": "roshandmsg_pkg/msg/MsgHand",
-      "hash_string": "RIHS01_bdd485089ed08818bf3d96e1595f54307dbe7900aa07394b31b6a6a9c076c82c"
+      "hash_string": "RIHS01_41e9ce7930099121441af5149e87b6026425baecc3bd35d79eff76952ee5831f"
     }
   ]
 }

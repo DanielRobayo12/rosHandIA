@@ -27,6 +27,7 @@ typedef struct roshandmsg_pkg__msg__MsgHand
   float d3;
   float d4;
   float d5;
+  float s;
 } roshandmsg_pkg__msg__MsgHand;
 
 // Struct for a sequence of roshandmsg_pkg__msg__MsgHand.

@@ -32,12 +32,12 @@ def generate_launch_description():
         ),
         Node(
             package='roshandia_pkg',
-            executable='joinStatePublisher',
-            output="screen",
+            executable='connectHand'
         ),
         Node(
             package='roshandia_pkg',
-            executable='connectHand',
-
+            executable='joinStatePublisher'
         )
+        
+        
     ])

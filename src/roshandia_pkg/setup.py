@@ -16,8 +16,16 @@ setup(
         (os.path.join('share',package_name, 'urdf'), glob('urdf/*.urdf')),
         (os.path.join('share',package_name, 'launch'), glob('launch/*.py')),
         (os.path.join('share',package_name, 'urdf/mesh'), glob('urdf/mesh/*.stl')),
-        (os.path.join('share', package_name, 'rviz'), glob('rviz/*.rviz')),
-        
+        (os.path.join('share', package_name, 'rviz2'), glob('rviz2/*.rviz')),
+        ('share/roshandia_pkg/config', [
+        'config/bridge_config.yaml'
+        ]),
+        ('share/roshandia_pkg/worlds', [
+        'worlds/world.sdf'
+        ]),
+        ('share/roshandia_pkg/worlds', [
+        'worlds/world2.sdf'
+        ]),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -35,6 +43,7 @@ setup(
             'handRead01 = roshandia_pkg.handRead01:main',
             'connectHand = roshandia_pkg.connectHand:main',
             'joinStatePublisher = roshandia_pkg.joinStatePublisher:main',
+            'joinStatePublisherSim = roshandia_pkg.joinState_sim:main',
         ],
     },
 )

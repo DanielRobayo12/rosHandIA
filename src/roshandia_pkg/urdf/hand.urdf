@@ -5,6 +5,80 @@
         <color rgba="0.9 0.9 0.9 1"/>
     </material>
 
+    <!-- <gazebo>
+        <plugin name="ros_control" filename="libgazebo_ros2_control.so"/>
+    </gazebo> -->
+
+    <gazebo>
+        <plugin filename="gz-sim-joint-state-publisher-system"
+        name="gz::sim::systems::JointStatePublisher">
+        <topic>joint_states</topic>
+        <joint_name>blade_to_arm</joint_name>
+        <joint_name>f1_to_hand</joint_name>
+        <joint_name>f2_to_hand</joint_name>
+        <joint_name>f3_to_hand</joint_name>
+        <joint_name>f4_to_hand</joint_name>
+        <joint_name>f5_to_hand</joint_name>
+        </plugin>
+        <plugin filename="gz-sim-joint-position-controller-system" name="gz::sim::systems::JointPositionController">
+            <joint_name>f1_to_hand</joint_name>
+            <topic>f1</topic>
+            <p_gain>1</p_gain>
+            <i_gain>0.1</i_gain>
+            <d_gain>0.01</d_gain>
+            <i_max>1</i_max>
+            <i_min>-1</i_min>
+            <cmd_max>1000</cmd_max>
+            <cmd_min>-1000</cmd_min>
+        </plugin>
+        <plugin filename="gz-sim-joint-position-controller-system" name="gz::sim::systems::JointPositionController">
+            <joint_name>f2_to_hand</joint_name>
+            <topic>f2</topic>
+            <p_gain>1</p_gain>
+            <i_gain>0.1</i_gain>
+            <d_gain>0.01</d_gain>
+            <i_max>1</i_max>
+            <i_min>-1</i_min>
+            <cmd_max>1000</cmd_max>
+            <cmd_min>-1000</cmd_min>
+        </plugin>
+        <plugin filename="gz-sim-joint-position-controller-system" name="gz::sim::systems::JointPositionController">
+            <joint_name>f3_to_hand</joint_name>
+            <topic>f3</topic>
+            <p_gain>1</p_gain>
+            <i_gain>0.1</i_gain>
+            <d_gain>0.01</d_gain>
+            <i_max>1</i_max>
+            <i_min>-1</i_min>
+            <cmd_max>1000</cmd_max>
+            <cmd_min>-1000</cmd_min>
+        </plugin>
+        <plugin filename="gz-sim-joint-position-controller-system" name="gz::sim::systems::JointPositionController">
+            <joint_name>f4_to_hand</joint_name>
+            <topic>f4</topic>
+            <p_gain>1</p_gain>
+            <i_gain>0.1</i_gain>
+            <d_gain>0.01</d_gain>
+            <i_max>1</i_max>
+            <i_min>-1</i_min>
+            <cmd_max>1000</cmd_max>
+            <cmd_min>-1000</cmd_min>
+        </plugin>
+        <plugin filename="gz-sim-joint-position-controller-system" name="gz::sim::systems::JointPositionController">
+            <joint_name>f5_to_hand</joint_name>
+            <topic>f5</topic>
+            <p_gain>1</p_gain>
+            <i_gain>0.1</i_gain>
+            <d_gain>0.01</d_gain>
+            <i_max>1</i_max>
+            <i_min>-1</i_min>
+            <cmd_max>3</cmd_max>
+            <cmd_min>-3</cmd_min>
+        </plugin>
+
+    </gazebo>
+
+
     <!-- //////////////////  arm   //////////////////-->
     <link name = "arm">
         <visual>
@@ -16,8 +90,15 @@
         <collision>
             <geometry>
                 <mesh filename = "package://roshandia_pkg/urdf/mesh/arm.stl"/>
-            </geometry>
+              </geometry>
         </collision>
+        <inertial>
+            <mass value="0.5"/>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <inertia
+                ixx="0.001" ixy="0.0" ixz="0.0"
+                iyy="0.001" iyz="0.0" izz="0.001"/>
+        </inertial>
     </link>
     <!-- //////////////////  hand   //////////////////-->
     <link name ="hand">
@@ -32,6 +113,13 @@
                 <mesh filename = "package://roshandia_pkg/urdf/mesh/hand.stl"/>
              </geometry>
         </collision>
+        <inertial>
+            <mass value="0.5"/>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <inertia
+                ixx="0.001" ixy="0.0" ixz="0.0"
+                iyy="0.001" iyz="0.0" izz="0.001"/>
+        </inertial>
     </link>
 
     <joint name = "hand_to_arm" type="fixed">
@@ -52,6 +140,13 @@
                 <mesh filename = "package://roshandia_pkg/urdf/mesh/blade.stl"/>
              </geometry>
         </collision>
+        <inertial>
+            <mass value="0.5"/>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <inertia
+                ixx="0.001" ixy="0.0" ixz="0.0"
+                iyy="0.001" iyz="0.0" izz="0.001"/>
+        </inertial>
     </link>
 
     <joint name="blade_to_arm" type="prismatic">
@@ -74,6 +169,13 @@
                 <mesh filename = "package://roshandia_pkg/urdf/mesh/finger1.stl"/>
              </geometry>
         </collision>
+        <inertial>
+            <mass value="0.5"/>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <inertia
+                ixx="0.001" ixy="0.0" ixz="0.0"
+                iyy="0.001" iyz="0.0" izz="0.001"/>
+        </inertial>
     </link>
 
     <joint name="f1_to_hand" type="revolute">
@@ -81,7 +183,7 @@
         <child link="finger1"/>
         <origin xyz="0.001181 0.472818 3.3364"/>
         <axis xyz="0.707 0.707 0.707"/>
-        <limit effort="100" velocity="0.5" lower="-1" upper="1"/>
+        <limit effort="100" velocity="2" lower="-1" upper="1"/>
     </joint>
     
     <!-- //////////////////  finger 2   //////////////////-->
@@ -97,6 +199,13 @@
                 <mesh filename = "package://roshandia_pkg/urdf/mesh/finger2.stl"/>
              </geometry>
         </collision>
+        <inertial>
+            <mass value="0.5"/>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <inertia
+                ixx="0.001" ixy="0.0" ixz="0.0"
+                iyy="0.001" iyz="0.0" izz="0.001"/>
+        </inertial>
     </link>
 
     <joint name="f2_to_hand" type="revolute">
@@ -104,7 +213,7 @@
         <child link="finger2"/>
         <origin xyz="0.285932 0.615642 4.82351"/>
         <axis xyz="0 1 0"/>
-        <limit effort="100" velocity="0.5" lower="-1.222" upper="0"/>
+        <limit effort="100" velocity="2" lower="-1.222" upper="0"/>
     </joint>
     <!-- //////////////////  finger 3   //////////////////-->
     <link name = "finger3">
@@ -119,6 +228,13 @@
                 <mesh filename = "package://roshandia_pkg/urdf/mesh/finger3.stl"/>
              </geometry>
         </collision>
+        <inertial>
+            <mass value="0.5"/>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <inertia
+                ixx="0.001" ixy="0.0" ixz="0.0"
+                iyy="0.001" iyz="0.0" izz="0.001"/>
+        </inertial>
     </link>
 
     <joint name="f3_to_hand" type="revolute">
@@ -126,7 +242,7 @@
         <child link="finger3"/>
         <origin xyz="0.260113 0.054977 4.73802"/>
         <axis xyz="0 1 0"/>
-        <limit effort="100" velocity="0.5" lower="-1.222" upper="0"/>
+        <limit effort="100" velocity="2" lower="-1.222" upper="0"/>
     </joint>
     <!-- //////////////////  finger 4   //////////////////-->
     <link name = "finger4">
@@ -141,6 +257,13 @@
                 <mesh filename = "package://roshandia_pkg/urdf/mesh/finger4.stl"/>
              </geometry>
         </collision>
+        <inertial>
+            <mass value="0.5"/>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <inertia
+                ixx="0.001" ixy="0.0" ixz="0.0"
+                iyy="0.001" iyz="0.0" izz="0.001"/>
+        </inertial>
     </link>
 
     <joint name="f4_to_hand" type="revolute">
@@ -163,6 +286,13 @@
                 <mesh filename = "package://roshandia_pkg/urdf/mesh/finger5.stl"/>
              </geometry>
         </collision>
+        <inertial>
+            <mass value="0.5"/>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <inertia
+                ixx="0.001" ixy="0.0" ixz="0.0"
+                iyy="0.001" iyz="0.0" izz="0.001"/>
+        </inertial>
     </link>
 
     <joint name="f5_to_hand" type="revolute">
@@ -173,4 +303,28 @@
         <limit effort="100" velocity="0.5" lower="-1.222" upper="0"/>
     </joint>
 
+<gazebo>
+    <joint name='World' type='fixed'>
+        <child>arm</child>
+        <parent>world</parent>
+        <axis>
+          <xyz>0 0 1</xyz>
+          <limit>
+            <lower>-inf</lower>
+            <upper>inf</upper>
+            <effort>inf</effort>
+            <velocity>inf</velocity>
+            <stiffness>100000000</stiffness>
+            <dissipation>1</dissipation>
+          </limit>
+          <dynamics>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+            <damping>0</damping>
+            <friction>0</friction>
+          </dynamics>
+        </axis>
+        <pose>0 0 0 0 0 0</pose>
+      </joint>
+    </gazebo>
 </robot>

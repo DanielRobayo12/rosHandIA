@@ -22,6 +22,7 @@ roshandmsg_pkg__msg__MsgHand__init(roshandmsg_pkg__msg__MsgHand * msg)
   // d3
   // d4
   // d5
+  // s
   return true;
 }
 
@@ -36,6 +37,7 @@ roshandmsg_pkg__msg__MsgHand__fini(roshandmsg_pkg__msg__MsgHand * msg)
   // d3
   // d4
   // d5
+  // s
 }
 
 bool
@@ -64,6 +66,10 @@ roshandmsg_pkg__msg__MsgHand__are_equal(const roshandmsg_pkg__msg__MsgHand * lhs
   if (lhs->d5 != rhs->d5) {
     return false;
   }
+  // s
+  if (lhs->s != rhs->s) {
+    return false;
+  }
   return true;
 }
 
@@ -85,6 +91,8 @@ roshandmsg_pkg__msg__MsgHand__copy(
   output->d4 = input->d4;
   // d5
   output->d5 = input->d5;
+  // s
+  output->s = input->s;
   return true;
 }
 

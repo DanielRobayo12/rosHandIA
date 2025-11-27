@@ -1,2 +1,0 @@
-[console_scripts]
-handRead01 = roshandia_pkg.handRead01:main

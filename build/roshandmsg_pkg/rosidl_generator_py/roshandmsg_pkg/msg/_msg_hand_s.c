@@ -95,6 +95,15 @@ bool roshandmsg_pkg__msg__msg_hand__convert_from_py(PyObject * _pymsg, void * _r
     ros_message->d5 = (float)PyFloat_AS_DOUBLE(field);
     Py_DECREF(field);
   }
+  {  // s
+    PyObject * field = PyObject_GetAttrString(_pymsg, "s");
+    if (!field) {
+      return false;
+    }
+    assert(PyFloat_Check(field));
+    ros_message->s = (float)PyFloat_AS_DOUBLE(field);
+    Py_DECREF(field);
+  }
 
   return true;
 }
@@ -166,6 +175,17 @@ PyObject * roshandmsg_pkg__msg__msg_hand__convert_to_py(void * raw_ros_message)
     field = PyFloat_FromDouble(ros_message->d5);
     {
       int rc = PyObject_SetAttrString(_pymessage, "d5", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // s
+    PyObject * field = NULL;
+    field = PyFloat_FromDouble(ros_message->s);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "s", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

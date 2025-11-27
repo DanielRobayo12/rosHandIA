@@ -6,7 +6,7 @@ import numpy as np
 import math
 
 global node
-global pub
+global pub  
 
 #map funcion like an arduino funcion
 def maping(x:float, in_min:float,in_max:float):
@@ -20,8 +20,8 @@ def maping(x:float, in_min:float,in_max:float):
 
 #map funcion like an arduino funcion
 def maping1(x): 
-    in_min = 0
-    in_max = 0.12
+    in_min = 0.17
+    in_max = 0.32
     out_min = -1.0
     out_max = 1.0
     
@@ -43,7 +43,7 @@ def callback(msg:MsgHand):
     max_r = [0.2, 0.25, 0.25, 0.21]
     numRad = []
     
-    
+     
     numRad.append(maping1(msg.d1))
     
     #maping the input data

@@ -38,7 +38,7 @@ void MsgHand_fini_function(void * message_memory)
   typed_message->~MsgHand();
 }
 
-static const ::rosidl_typesupport_introspection_cpp::MessageMember MsgHand_message_member_array[5] = {
+static const ::rosidl_typesupport_introspection_cpp::MessageMember MsgHand_message_member_array[6] = {
   {
     "d1",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_FLOAT,  // type
@@ -128,13 +128,31 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember MsgHand_messa
     nullptr,  // fetch(index, &value) function pointer
     nullptr,  // assign(index, value) function pointer
     nullptr  // resize(index) function pointer
+  },
+  {
+    "s",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_FLOAT,  // type
+    0,  // upper bound of string
+    nullptr,  // members of sub message
+    false,  // is key
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(roshandmsg_pkg::msg::MsgHand, s),  // bytes offset in struct
+    nullptr,  // default value
+    nullptr,  // size() function pointer
+    nullptr,  // get_const(index) function pointer
+    nullptr,  // get(index) function pointer
+    nullptr,  // fetch(index, &value) function pointer
+    nullptr,  // assign(index, value) function pointer
+    nullptr  // resize(index) function pointer
   }
 };
 
 static const ::rosidl_typesupport_introspection_cpp::MessageMembers MsgHand_message_members = {
   "roshandmsg_pkg::msg",  // message namespace
   "MsgHand",  // message name
-  5,  // number of fields
+  6,  // number of fields
   sizeof(roshandmsg_pkg::msg::MsgHand),
   false,  // has_any_key_member_
   MsgHand_message_member_array,  // message members

@@ -3,16 +3,19 @@
 
 CMakeFiles/roshandmsg_pkg__rosidl_generator_py.dir/rosidl_generator_py/roshandmsg_pkg/msg/_msg_hand_s.c.o
  /home/daniel-robayo/handIA2/ros/build/roshandmsg_pkg/rosidl_generator_py/roshandmsg_pkg/msg/_msg_hand_s.c
- /home/daniel-robayo/handIA2/handIA2/lib/python3.12/site-packages/numpy/core/include/numpy/__multiarray_api.h
- /home/daniel-robayo/handIA2/handIA2/lib/python3.12/site-packages/numpy/core/include/numpy/_neighborhood_iterator_imp.h
- /home/daniel-robayo/handIA2/handIA2/lib/python3.12/site-packages/numpy/core/include/numpy/_numpyconfig.h
- /home/daniel-robayo/handIA2/handIA2/lib/python3.12/site-packages/numpy/core/include/numpy/ndarrayobject.h
- /home/daniel-robayo/handIA2/handIA2/lib/python3.12/site-packages/numpy/core/include/numpy/ndarraytypes.h
- /home/daniel-robayo/handIA2/handIA2/lib/python3.12/site-packages/numpy/core/include/numpy/npy_common.h
- /home/daniel-robayo/handIA2/handIA2/lib/python3.12/site-packages/numpy/core/include/numpy/npy_cpu.h
- /home/daniel-robayo/handIA2/handIA2/lib/python3.12/site-packages/numpy/core/include/numpy/npy_endian.h
- /home/daniel-robayo/handIA2/handIA2/lib/python3.12/site-packages/numpy/core/include/numpy/numpyconfig.h
- /home/daniel-robayo/handIA2/handIA2/lib/python3.12/site-packages/numpy/core/include/numpy/utils.h
+ /home/daniel-robayo/handIA2/handIA2/lib/python3.12/site-packages/numpy/_core/include/numpy/__multiarray_api.h
+ /home/daniel-robayo/handIA2/handIA2/lib/python3.12/site-packages/numpy/_core/include/numpy/_neighborhood_iterator_imp.h
+ /home/daniel-robayo/handIA2/handIA2/lib/python3.12/site-packages/numpy/_core/include/numpy/_numpyconfig.h
+ /home/daniel-robayo/handIA2/handIA2/lib/python3.12/site-packages/numpy/_core/include/numpy/_public_dtype_api_table.h
+ /home/daniel-robayo/handIA2/handIA2/lib/python3.12/site-packages/numpy/_core/include/numpy/dtype_api.h
+ /home/daniel-robayo/handIA2/handIA2/lib/python3.12/site-packages/numpy/_core/include/numpy/ndarrayobject.h
+ /home/daniel-robayo/handIA2/handIA2/lib/python3.12/site-packages/numpy/_core/include/numpy/ndarraytypes.h
+ /home/daniel-robayo/handIA2/handIA2/lib/python3.12/site-packages/numpy/_core/include/numpy/npy_2_compat.h
+ /home/daniel-robayo/handIA2/handIA2/lib/python3.12/site-packages/numpy/_core/include/numpy/npy_common.h
+ /home/daniel-robayo/handIA2/handIA2/lib/python3.12/site-packages/numpy/_core/include/numpy/npy_cpu.h
+ /home/daniel-robayo/handIA2/handIA2/lib/python3.12/site-packages/numpy/_core/include/numpy/npy_endian.h
+ /home/daniel-robayo/handIA2/handIA2/lib/python3.12/site-packages/numpy/_core/include/numpy/numpyconfig.h
+ /home/daniel-robayo/handIA2/handIA2/lib/python3.12/site-packages/numpy/_core/include/numpy/utils.h
  /home/daniel-robayo/handIA2/ros/build/roshandmsg_pkg/rosidl_generator_c/roshandmsg_pkg/msg/detail/msg_hand__functions.h
  /home/daniel-robayo/handIA2/ros/build/roshandmsg_pkg/rosidl_generator_c/roshandmsg_pkg/msg/detail/msg_hand__struct.h
  /home/daniel-robayo/handIA2/ros/build/roshandmsg_pkg/rosidl_generator_c/roshandmsg_pkg/msg/rosidl_generator_c__visibility_control.h
@@ -43,6 +46,7 @@ CMakeFiles/roshandmsg_pkg__rosidl_generator_py.dir/rosidl_generator_py/roshandms
  /usr/include/asm-generic/posix_types.h
  /usr/include/asm-generic/types.h
  /usr/include/assert.h
+ /usr/include/complex.h
  /usr/include/ctype.h
  /usr/include/endian.h
  /usr/include/errno.h
@@ -185,6 +189,7 @@ CMakeFiles/roshandmsg_pkg__rosidl_generator_py.dir/rosidl_generator_py/roshandms
  /usr/include/x86_64-linux-gnu/asm/types.h
  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h
  /usr/include/x86_64-linux-gnu/bits/byteswap.h
+ /usr/include/x86_64-linux-gnu/bits/cmathcalls.h
  /usr/include/x86_64-linux-gnu/bits/confname.h
  /usr/include/x86_64-linux-gnu/bits/cpu-set.h
  /usr/include/x86_64-linux-gnu/bits/endian.h
@@ -207,6 +212,7 @@ CMakeFiles/roshandmsg_pkg__rosidl_generator_py.dir/rosidl_generator_py/roshandms
  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h
  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h
+ /usr/include/x86_64-linux-gnu/bits/mathdef.h
  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h
  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h
  /usr/include/x86_64-linux-gnu/bits/posix_opt.h

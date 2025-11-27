@@ -210,16 +210,21 @@ CMakeFiles/roshandmsg_pkg__rosidl_generator_py.dir/rosidl_generator_py/roshandms
  /usr/include/python3.12/cpython/pyfpe.h \
  /usr/include/python3.12/tracemalloc.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
- /home/daniel-robayo/handIA2/handIA2/lib/python3.12/site-packages/numpy/core/include/numpy/ndarrayobject.h \
- /home/daniel-robayo/handIA2/handIA2/lib/python3.12/site-packages/numpy/core/include/numpy/ndarraytypes.h \
- /home/daniel-robayo/handIA2/handIA2/lib/python3.12/site-packages/numpy/core/include/numpy/npy_common.h \
- /home/daniel-robayo/handIA2/handIA2/lib/python3.12/site-packages/numpy/core/include/numpy/numpyconfig.h \
- /home/daniel-robayo/handIA2/handIA2/lib/python3.12/site-packages/numpy/core/include/numpy/_numpyconfig.h \
- /home/daniel-robayo/handIA2/handIA2/lib/python3.12/site-packages/numpy/core/include/numpy/npy_endian.h \
- /home/daniel-robayo/handIA2/handIA2/lib/python3.12/site-packages/numpy/core/include/numpy/npy_cpu.h \
- /home/daniel-robayo/handIA2/handIA2/lib/python3.12/site-packages/numpy/core/include/numpy/utils.h \
- /home/daniel-robayo/handIA2/handIA2/lib/python3.12/site-packages/numpy/core/include/numpy/_neighborhood_iterator_imp.h \
- /home/daniel-robayo/handIA2/handIA2/lib/python3.12/site-packages/numpy/core/include/numpy/__multiarray_api.h \
+ /home/daniel-robayo/handIA2/handIA2/lib/python3.12/site-packages/numpy/_core/include/numpy/ndarrayobject.h \
+ /home/daniel-robayo/handIA2/handIA2/lib/python3.12/site-packages/numpy/_core/include/numpy/ndarraytypes.h \
+ /home/daniel-robayo/handIA2/handIA2/lib/python3.12/site-packages/numpy/_core/include/numpy/npy_common.h \
+ /home/daniel-robayo/handIA2/handIA2/lib/python3.12/site-packages/numpy/_core/include/numpy/numpyconfig.h \
+ /home/daniel-robayo/handIA2/handIA2/lib/python3.12/site-packages/numpy/_core/include/numpy/_numpyconfig.h \
+ /usr/include/complex.h /usr/include/x86_64-linux-gnu/bits/mathdef.h \
+ /usr/include/x86_64-linux-gnu/bits/cmathcalls.h \
+ /home/daniel-robayo/handIA2/handIA2/lib/python3.12/site-packages/numpy/_core/include/numpy/npy_endian.h \
+ /home/daniel-robayo/handIA2/handIA2/lib/python3.12/site-packages/numpy/_core/include/numpy/npy_cpu.h \
+ /home/daniel-robayo/handIA2/handIA2/lib/python3.12/site-packages/numpy/_core/include/numpy/utils.h \
+ /home/daniel-robayo/handIA2/handIA2/lib/python3.12/site-packages/numpy/_core/include/numpy/_neighborhood_iterator_imp.h \
+ /home/daniel-robayo/handIA2/handIA2/lib/python3.12/site-packages/numpy/_core/include/numpy/dtype_api.h \
+ /home/daniel-robayo/handIA2/handIA2/lib/python3.12/site-packages/numpy/_core/include/numpy/__multiarray_api.h \
+ /home/daniel-robayo/handIA2/handIA2/lib/python3.12/site-packages/numpy/_core/include/numpy/_public_dtype_api_table.h \
+ /home/daniel-robayo/handIA2/handIA2/lib/python3.12/site-packages/numpy/_core/include/numpy/npy_2_compat.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
  /home/daniel-robayo/handIA2/ros/build/roshandmsg_pkg/rosidl_generator_c/roshandmsg_pkg/msg/detail/msg_hand__struct.h \
  /home/daniel-robayo/handIA2/ros/build/roshandmsg_pkg/rosidl_generator_c/roshandmsg_pkg/msg/detail/msg_hand__functions.h \

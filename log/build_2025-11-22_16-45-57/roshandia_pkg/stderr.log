@@ -1,0 +1,3 @@
+warning: install_data: setup script did not provide a directory for 'share/roshandia_pkg/config/bridge_config.yaml' -- installing right in '/home/daniel-robayo/handIA2/ros/install/roshandia_pkg'
+
+error: can't copy 'share/roshandia_pkg/config/bridge_config.yaml': doesn't exist or not a regular file

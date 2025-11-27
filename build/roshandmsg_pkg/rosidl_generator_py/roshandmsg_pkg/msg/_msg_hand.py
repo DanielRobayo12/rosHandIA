@@ -69,6 +69,7 @@ class MsgHand(metaclass=Metaclass_MsgHand):
         '_d3',
         '_d4',
         '_d5',
+        '_s',
         '_check_fields',
     ]
 
@@ -78,11 +79,13 @@ class MsgHand(metaclass=Metaclass_MsgHand):
         'd3': 'float',
         'd4': 'float',
         'd5': 'float',
+        's': 'float',
     }
 
     # This attribute is used to store an rosidl_parser.definition variable
     # related to the data type of each of the components the message.
     SLOT_TYPES = (
+        rosidl_parser.definition.BasicType('float'),  # noqa: E501
         rosidl_parser.definition.BasicType('float'),  # noqa: E501
         rosidl_parser.definition.BasicType('float'),  # noqa: E501
         rosidl_parser.definition.BasicType('float'),  # noqa: E501
@@ -104,6 +107,7 @@ class MsgHand(metaclass=Metaclass_MsgHand):
         self.d3 = kwargs.get('d3', float())
         self.d4 = kwargs.get('d4', float())
         self.d5 = kwargs.get('d5', float())
+        self.s = kwargs.get('s', float())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -144,6 +148,8 @@ class MsgHand(metaclass=Metaclass_MsgHand):
         if self.d4 != other.d4:
             return False
         if self.d5 != other.d5:
+            return False
+        if self.s != other.s:
             return False
         return True
 
@@ -226,3 +232,18 @@ class MsgHand(metaclass=Metaclass_MsgHand):
             assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
                 "The 'd5' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
         self._d5 = value
+
+    @builtins.property
+    def s(self):
+        """Message field 's'."""
+        return self._s
+
+    @s.setter
+    def s(self, value):
+        if self._check_fields:
+            assert \
+                isinstance(value, float), \
+                "The 's' field must be of type 'float'"
+            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
+                "The 's' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
+        self._s = value

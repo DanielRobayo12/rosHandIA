@@ -24,16 +24,32 @@ namespace msg
 namespace builder
 {
 
+class Init_MsgHand_s
+{
+public:
+  explicit Init_MsgHand_s(::roshandmsg_pkg::msg::MsgHand & msg)
+  : msg_(msg)
+  {}
+  ::roshandmsg_pkg::msg::MsgHand s(::roshandmsg_pkg::msg::MsgHand::_s_type arg)
+  {
+    msg_.s = std::move(arg);
+    return std::move(msg_);
+  }
+
+private:
+  ::roshandmsg_pkg::msg::MsgHand msg_;
+};
+
 class Init_MsgHand_d5
 {
 public:
   explicit Init_MsgHand_d5(::roshandmsg_pkg::msg::MsgHand & msg)
   : msg_(msg)
   {}
-  ::roshandmsg_pkg::msg::MsgHand d5(::roshandmsg_pkg::msg::MsgHand::_d5_type arg)
+  Init_MsgHand_s d5(::roshandmsg_pkg::msg::MsgHand::_d5_type arg)
   {
     msg_.d5 = std::move(arg);
-    return std::move(msg_);
+    return Init_MsgHand_s(msg_);
   }
 
 private:

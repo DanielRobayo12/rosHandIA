@@ -31,7 +31,7 @@ void roshandmsg_pkg__msg__MsgHand__rosidl_typesupport_introspection_c__MsgHand_f
   roshandmsg_pkg__msg__MsgHand__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember roshandmsg_pkg__msg__MsgHand__rosidl_typesupport_introspection_c__MsgHand_message_member_array[5] = {
+static rosidl_typesupport_introspection_c__MessageMember roshandmsg_pkg__msg__MsgHand__rosidl_typesupport_introspection_c__MsgHand_message_member_array[6] = {
   {
     "d1",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
@@ -121,13 +121,31 @@ static rosidl_typesupport_introspection_c__MessageMember roshandmsg_pkg__msg__Ms
     NULL,  // fetch(index, &value) function pointer
     NULL,  // assign(index, value) function pointer
     NULL  // resize(index) function pointer
+  },
+  {
+    "s",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is key
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(roshandmsg_pkg__msg__MsgHand, s),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
   }
 };
 
 static const rosidl_typesupport_introspection_c__MessageMembers roshandmsg_pkg__msg__MsgHand__rosidl_typesupport_introspection_c__MsgHand_message_members = {
   "roshandmsg_pkg__msg",  // message namespace
   "MsgHand",  // message name
-  5,  // number of fields
+  6,  // number of fields
   sizeof(roshandmsg_pkg__msg__MsgHand),
   false,  // has_any_key_member_
   roshandmsg_pkg__msg__MsgHand__rosidl_typesupport_introspection_c__MsgHand_message_member_array,  // message members

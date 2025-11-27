@@ -9,6 +9,7 @@ def callback(msg:MsgHand):
     global esp
     global cont
     
+    
     print(f"D1: {msg.d1}")
     print(f"D2: {msg.d2}")
     print(f"D3: {msg.d3}")

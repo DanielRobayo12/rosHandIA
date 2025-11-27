@@ -46,6 +46,7 @@ struct MsgHand_
       this->d3 = 0.0f;
       this->d4 = 0.0f;
       this->d5 = 0.0f;
+      this->s = 0.0f;
     }
   }
 
@@ -60,6 +61,7 @@ struct MsgHand_
       this->d3 = 0.0f;
       this->d4 = 0.0f;
       this->d5 = 0.0f;
+      this->s = 0.0f;
     }
   }
 
@@ -79,6 +81,9 @@ struct MsgHand_
   using _d5_type =
     float;
   _d5_type d5;
+  using _s_type =
+    float;
+  _s_type s;
 
   // setters for named parameter idiom
   Type & set__d1(
@@ -109,6 +114,12 @@ struct MsgHand_
     const float & _arg)
   {
     this->d5 = _arg;
+    return *this;
+  }
+  Type & set__s(
+    const float & _arg)
+  {
+    this->s = _arg;
     return *this;
   }
 
@@ -167,6 +178,9 @@ struct MsgHand_
       return false;
     }
     if (this->d5 != other.d5) {
+      return false;
+    }
+    if (this->s != other.s) {
       return false;
     }
     return true;
