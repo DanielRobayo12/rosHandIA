@@ -4,11 +4,16 @@ This is a enjoy proyect to move a robotic hand with openCV and mediapipe librari
 
 >### Preparate the enviroment.
 Fist we need create a virtual envieroment in python to use te libraries openCV and mediapipe
+- Open a terminal an write
+
+        apt install python3.12-venv
+
 - Write in a terminal to create the **VE**
 
-      python -m venv handIA2
-The name "handIA2" its free
-- To activate the Virtual enviroment drite
+      sudo python -m venv handIA
+  
+The name "handIA" its free
+- To activate the Virtual enviroment write
 
       souurce hadIA/bin/activate
 we can see out terminal like this
@@ -18,9 +23,9 @@ we can see out terminal like this
       
 - In the **VE** opened we gonna install our libreries
   
-        pip install mediapipe
-        pip install opencv-python
-        pip install numpy
+        python -m pip install mediapipe
+        pip install opencv-contrib-python
+        pip install numpy==1.26.4
         pip install lark
 - Now go to de rute /ros
 
