@@ -29,13 +29,15 @@ we can see out terminal like this
       
 - In the **VE** opened we gonna install our libreries
   
+
         python -m pip install mediapipe
         pip install opencv-contrib-python
         pip install numpy==1.26.4
-        pip install lark
         pip install pyyaml
+        pip install lark
         pip install "empy>=3.3.4"
         pip install catkin_pkg empy lark-parser setuptools
+        pip install --upgrade pip setuptools wheel
         
 
 - Now go to de rute /rosHandIA
