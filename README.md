@@ -33,9 +33,10 @@ we can see out terminal like this
         pip install opencv-contrib-python
         pip install numpy==1.26.4
         pip install lark
+        pip install pyyaml
         pip install "empy>=3.3.4"
         pip install catkin_pkg empy lark-parser setuptools
-        pip install pyyaml
+        
 
 - Now go to de rute /rosHandIA
 
