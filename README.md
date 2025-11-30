@@ -7,12 +7,18 @@ Fist we need create a virtual envieroment in python to use te libraries openCV a
 - Open a terminal an write
 
         apt install python3.12-venv
+- Copy the proyect int the folder where yoy gonna work the proyect
+
+        git clone https://github.com/DanielRobayo12/rosHandIA.git
+
 
 - Write in a terminal to create the **VE**
 
       sudo python -m venv handIA
   
 The name "handIA" its free
+
+
 - To activate the Virtual enviroment write
 
       souurce hadIA/bin/activate
@@ -28,15 +34,21 @@ we can see out terminal like this
         pip install numpy==1.26.4
         pip install lark
         pip install "empy>=3.3.4"
+        pip install catkin_pkg empy lark-parser setuptools
+        pip install pyyaml
+
+- Now go to de rute /rosHandIA
+
+      cd rosHandIA
   
-pip install catkin_pkg empy lark-parser setuptools
-pip install pyyaml
-- Now go to de rute /ros
+- Activate the ros enviroment 
 
-      cd ros
-- And activate the ros enviroment 
-
+      source /opt/ros/jazzy/setup.bash
       source install/setup.bash
+- And compilate
+
+      colcon build
+  
 Now we can work whit the artificial vision and ros2 enviroment
 
 
