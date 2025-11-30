@@ -1,5 +1,7 @@
 ## Artificial Vision Hand Move
 
+https://github.com/user-attachments/assets/ac1727c6-f097-493d-ac46-14fa0e8dfd08
+
 This is a enjoy proyect to move a robotic hand with openCV and mediapipe libraries in a ros2 enviroment
 
 >### Preparate the enviroment.
