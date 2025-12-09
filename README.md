@@ -61,11 +61,13 @@ The physical conecction it's very important to can do work the proyect, after ch
 
 - Run the node to see the hands landmarks
 
-        ros2 run roshandia_pkg handRead01.py
+        ros2 run roshandia_pkg handRead01
 - After run the node connection with the board ESP32 in another terminal
 
-        ros2 run roshandia_pkg connectHand.py
+        ros2 run roshandia_pkg connectHand
   And enjoy whith the robot hand controlled by yourself
+
+  If handRead01 dont run, try `source vanv.bash`
 
 > ## Move the hand and sim whit Artificial Vision
 
