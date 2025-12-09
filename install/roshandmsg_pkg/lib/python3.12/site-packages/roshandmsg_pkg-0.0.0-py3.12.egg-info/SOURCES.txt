@@ -1,8 +1,0 @@
-setup.py
-roshandmsg_pkg/__init__.py
-roshandmsg_pkg.egg-info/PKG-INFO
-roshandmsg_pkg.egg-info/SOURCES.txt
-roshandmsg_pkg.egg-info/dependency_links.txt
-roshandmsg_pkg.egg-info/top_level.txt
-roshandmsg_pkg/msg/__init__.py
-roshandmsg_pkg/msg/_msg_hand.py
