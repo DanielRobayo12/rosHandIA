@@ -1,0 +1,7 @@
+{
+  "package_name": "roshandmsg_pkg",
+  "output_dir": "/home/danirob/handIA2/rosHandIA/build/roshandmsg_pkg/rosidl_generator_type_description/roshandmsg_pkg",
+  "idl_tuples": [
+    "/home/danirob/handIA2/rosHandIA/build/roshandmsg_pkg/rosidl_adapter/roshandmsg_pkg:msg/MsgHand.idl"
+  ]
+}

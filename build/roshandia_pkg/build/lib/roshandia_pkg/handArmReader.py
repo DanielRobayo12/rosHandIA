@@ -1,4 +1,3 @@
-#!/home/danirob/handIA2/handIA2/bin/python3
 
 import mediapipe as mp
 import cv2
@@ -19,13 +18,18 @@ def callTime(): #--------------------------------------CallTime
     
     #IA init
     mp_hands = mp.solutions.hands
+    mp_arm = mp.solutions.pose
     mp_drawing = mp.solutions.drawing_utils
     
     hands = mp_hands.Hands(
-    max_num_hands = 4,
-    static_image_mode = False,
+        max_num_hands = 1,
+        static_image_mode = False,
     )
     
+    arm = mp_arm.pose(
+        num_poses = 1,
+    )
+
     #Video init
     cam = cv2.VideoCapture(0)
     
@@ -44,14 +48,17 @@ def callTime(): #--------------------------------------CallTime
         
         #process the hand data
         result = hands.process(frame)
+        result2 = arm.process(frame)
         
     
-        if result.multi_hand_landmarks:
+        if result.multi_hand_landmarks: #&& result2.lad
             hand = result.multi_hand_landmarks[0]
+            hand = result
             
             #Copiar datos de landmarks
             d1[0][0] = hand.landmark[0].x
             d1[0][1] = hand.landmark[0].y
+            
             d1[1][0] = hand.landmark[4].x
             d1[1][1] = hand.landmark[4].y
             
@@ -113,7 +120,6 @@ def main(): # ///////////////////////////////////////// ------- Main
     
     #create a timer
     time = node.create_timer(0.001,callTime)
-    
     
     rclpy.spin(node)
     

@@ -1,0 +1,6 @@
+{
+  "package_name": "roshandmsg_pkg",
+  "non_idl_tuples": [
+    "/home/danirob/handIA2/rosHandIA/src/roshandmsg_pkg:msg/MsgHand.msg"
+  ]
+}
