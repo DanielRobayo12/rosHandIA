@@ -9,21 +9,19 @@ Fist we need create a virtual envieroment in python to use te libraries openCV a
 - Open a terminal an write
 
         apt install python3.12-venv
-- Copy the proyect int the folder where yoy gonna work the proyect
+- Copy the proyect int the folder where you gonna work the proyect
 
         git clone https://github.com/DanielRobayo12/rosHandIA.git
 
 
 - Write in a terminal to create the **VE**
 
-      sudo python -m venv handIA
-  
-The name "handIA" its free
+      sudo python -m venv handIA2
 
 
 - To activate the Virtual enviroment write
 
-      souurce hadIA/bin/activate
+      souurce hadIA2/bin/activate
 we can see out terminal like this
 
 `(handIA2) daniel-robayo@danirob:~/handIA2$`
@@ -31,18 +29,17 @@ we can see out terminal like this
       
 - In the **VE** opened we gonna install our libreries
   
-
-        python -m pip install mediapipe
-        pip install opencv-python==4.7.0.72
-        pip install numpy==1.26.4
-        pip install pyyaml
-        pip install "empy>=3.3.4"
-        pip install setuptools==65.5.0
-        pip install wheel
+      pip install mediapipe==0.10.14
+      pip install opencv-python==4.9.0.80
+      pip install numpy==1.26.4
+      pip install pyyaml==6.0.1
+      pip install "empy>=3.3.4"
+      pip install setuptools==70.0.0
+      pip install wheel==0.43.0
+      pip install catkin-pkg==1.0.0
+      pip install lark==1.1.9
  
   
-        
-
 - Now go to de rute /rosHandIA
 
       cd rosHandIA
@@ -62,10 +59,10 @@ Now we can work whit the artificial vision and ros2 enviroment
 
 The physical conecction it's very important to can do work the proyect, after cheking the physical connection conect the .cpp file whit the ESP32 board
 
-- Run the node to see and register the hands landmarks
+- Run the node to see the hands landmarks
 
         ros2 run roshandia_pkg handRead01.py
-- After run the node connection with the board in another terminal
+- After run the node connection with the board ESP32 in another terminal
 
         ros2 run roshandia_pkg connectHand.py
   And enjoy whith the robot hand controlled by yourself
