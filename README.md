@@ -29,15 +29,15 @@ we can see out terminal like this
       
 - In the **VE** opened we gonna install our libreries
   
-      sudo pip install mediapipe==0.10.14
-      sudo pip install opencv-python==4.9.0.80
-      sudo pip install numpy==1.26.4
-      sudo pip install pyyaml==6.0.1
-      sudo pip install "empy>=3.3.4"
-      sudo pip install setuptools==70.0.0
-      sudo pip install wheel==0.43.0
-      sudo pip install catkin-pkg==1.0.0
-      sudo pip install lark==1.1.9
+      pip install mediapipe==0.10.14
+      pip install opencv-python==4.9.0.80
+      pip install numpy==1.26.4
+      pip install pyyaml==6.0.1
+      pip install "empy>=3.3.4"
+      pip install setuptools==70.0.0
+      pip install wheel==0.43.0
+      pip install catkin-pkg==1.0.0
+      pip install lark==1.1.9
  
   
 - Now go to de rute /rosHandIA
