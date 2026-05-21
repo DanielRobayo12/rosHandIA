@@ -13,7 +13,10 @@ Fist we need create a virtual envieroment in python to use te libraries openCV a
 
         git clone https://github.com/DanielRobayo12/rosHandIA.git
 
+- Config user permmition
 
+        sudo chown -R $USER:$USER ~/Projects/rosHandIA2
+  
 - Write in a terminal to create the **VE**
 
       sudo python -m venv handIA2
