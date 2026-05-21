@@ -46,14 +46,15 @@ we can see out terminal like this
 - Now go to de rute /rosHandIA
 
       cd rosHandIA
+- And compilate
+
+      colcon build
   
 - Activate the ros enviroment 
 
       source /opt/ros/jazzy/setup.bash
       source install/setup.bash
-- And compilate
 
-      colcon build
   
 Now we can work whit the artificial vision and ros2 enviroment
 
