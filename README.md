@@ -51,6 +51,9 @@ we can see out terminal like this
 
       source /opt/ros/jazzy/setup.bash
       source install/setup.bash
+- Config python
+  
+      source venv.bash
 
   
 Now we can work whit the artificial vision and ros2 enviroment
