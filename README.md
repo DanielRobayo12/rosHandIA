@@ -12,16 +12,15 @@ Fist we need create a virtual envieroment in python to use te libraries openCV a
 - Copy the proyect int the folder where you gonna work the proyect
 
         git clone https://github.com/DanielRobayo12/rosHandIA.git
+  
+- Write in a terminal to create the **VE**
+
+      sudo python3 -m venv handIA2
 
 - Config user permmition
 
         sudo chown -R $USER:$USER ~/Projects/rosHandIA2
   
-- Write in a terminal to create the **VE**
-
-      sudo python -m venv handIA2
-
-
 - To activate the Virtual enviroment write
 
       source handIA2/bin/activate
@@ -33,15 +32,13 @@ we can see out terminal like this
 - In the **VE** opened we gonna install our libreries
   
       pip install mediapipe==0.10.14
-      pip install opencv-python==4.9.0.80
-      pip install numpy==1.26.4
-      pip install pyyaml==6.0.1
-      pip install "empy>=3.3.4"
       pip install setuptools==70.0.0
+      pip install pyyaml==6.0.1
+      pip install empy==3.3.4
       pip install wheel==0.43.0
       pip install catkin-pkg==1.0.0
       pip install lark==1.1.9
- 
+  
   
 - Now go to de rute /rosHandIA
 
