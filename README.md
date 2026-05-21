@@ -8,7 +8,7 @@ This is a enjoy proyect to move a robotic hand with openCV and mediapipe librari
 Fist we need create a virtual envieroment in python to use te libraries openCV and mediapipe
 - Open a terminal an write
 
-        apt install python3.12-venv
+        sudo apt install python3.12-venv
 - Copy the proyect int the folder where you gonna work the proyect
 
         git clone https://github.com/DanielRobayo12/rosHandIA.git
