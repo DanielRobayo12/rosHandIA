@@ -21,7 +21,7 @@ Fist we need create a virtual envieroment in python to use te libraries openCV a
 
 - To activate the Virtual enviroment write
 
-      souurce hadIA2/bin/activate
+      source handIA2/bin/activate
 we can see out terminal like this
 
 `(handIA2) daniel-robayo@danirob:~/handIA2$`
